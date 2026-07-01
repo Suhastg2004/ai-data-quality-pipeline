@@ -8,7 +8,7 @@ Designed to run before anomaly detection — it catches the obvious issues
 The profile output is a plain dictionary so it can be:
   - Printed to console
   - Written to JSON for downstream systems
-  - Consumed by the report generator in Step 8
+  - Consumed by the report generator
 """
 
 import json
@@ -16,7 +16,6 @@ import numpy as np
 import pandas as pd
 
 import config
-
 
 def profile_dataset(df: pd.DataFrame) -> dict:
     """

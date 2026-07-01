@@ -95,6 +95,7 @@ def generate_clean_data() -> pd.DataFrame:
     })
 
     return df
+
 def inject_anomalies(df: pd.DataFrame) -> pd.DataFrame:
     """
     Injects 4 types of DQ issues into the clean DataFrame.
@@ -213,24 +214,24 @@ def save_data(df: pd.DataFrame, path: str = "output/synthetic_data.csv") -> None
     df.to_csv(path, index=False)
     print(f"Data saved to {path}")
     
-if __name__ == "__main__":
-    # Step 1: generate clean data
-    clean_df = generate_clean_data()
-    print(f"Clean data: {len(clean_df)} rows")
-    save_data(clean_df, "output/synthetic_data_clean.csv")
+# if __name__ == "__main__":
+#     # Step 1: generate clean data
+#     clean_df = generate_clean_data()
+#     print(f"Clean data: {len(clean_df)} rows")
+#     save_data(clean_df, "output/synthetic_data_clean.csv")
 
-    # Step 2: inject anomalies
-    dirty_df = inject_anomalies(clean_df)
-    print(f"After injection: {len(dirty_df)} rows")
-    save_data(dirty_df, "output/synthetic_data_with_anomalies.csv")
+#     # Step 2: inject anomalies
+#     dirty_df = inject_anomalies(clean_df)
+#     print(f"After injection: {len(dirty_df)} rows")
+#     save_data(dirty_df, "output/synthetic_data_with_anomalies.csv")
 
-    # Step 3: print a summary of what was injected
-    print("\nGround truth summary:")
-    summary = dirty_df.groupby(config.COL_ANOMALY_TYPE)[config.COL_IS_ANOMALY].count()
-    print(summary.rename("row_count").to_string())
+#     # Step 3: print a summary of what was injected
+#     print("\nGround truth summary:")
+#     summary = dirty_df.groupby(config.COL_ANOMALY_TYPE)[config.COL_IS_ANOMALY].count()
+#     print(summary.rename("row_count").to_string())
 
-    total = len(dirty_df)
-    anomaly_count = dirty_df[config.COL_IS_ANOMALY].sum()
-    print(f"\nTotal rows     : {total}")
-    print(f"Anomalous rows : {int(anomaly_count)}")
-    print(f"Fault rate     : {anomaly_count / total * 100:.1f}%")
+#     total = len(dirty_df)
+#     anomaly_count = dirty_df[config.COL_IS_ANOMALY].sum()
+#     print(f"\nTotal rows     : {total}")
+#     print(f"Anomalous rows : {int(anomaly_count)}")
+#     print(f"Fault rate     : {anomaly_count / total * 100:.1f}%")
