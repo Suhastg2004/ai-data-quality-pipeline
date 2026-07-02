@@ -9,22 +9,6 @@ How it works:
 
     If |Z| > threshold( here z = 3 initially), the row is flagged.
 
-Why Z = 3 as the threshold?
-    In a perfect normal distribution, 99.7% of values fall within 3 standard
-    deviations of the mean. Anything beyond that is in the extreme 0.3% tail —
-    statistically unusual enough to flag.
-
-Core assumption (and its weakness):
-    Z-score assumes the column follows a normal distribution. If it doesn't —
-    like our unit_price which is log-normal and heavily right-skewed — the mean
-    and std are both distorted by the tail. This pushes the threshold too high,
-    causing Z-score to miss real outliers. You will see this in the evaluation.
-
-Why use it at all then?
-    It's fast, interpretable, and works well on columns that are close to normal
-    (like quantity, which is Poisson but roughly symmetric for our lambda). It's
-    also the most widely taught baseline — good for showing what classical
-    statistics can and can't do.
 """
 
 import numpy as np
