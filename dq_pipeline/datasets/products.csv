@@ -1,0 +1,501 @@
+product_id,sku,product_name,category,sub_category,brand,brand_tier,cost_price,selling_price,margin_pct,shelf_life_days,storage_type,promotion_sensitivity,price_elasticity,seasonality
+P00000,SKU000000,EasyBuy Yogurt,Dairy,Yogurt,EasyBuy,Value,6.35,7.87,0.24,124,Ambient,0.15,-0.5,All
+P00001,SKU000001,UrbanSelect Toothpaste,Personal Care,Toothpaste,UrbanSelect,Mid,0.65,0.94,0.45,296,Ambient,0.99,-0.3,All
+P00002,SKU000002,DailyMart Energy Drink,Beverages,Energy Drink,DailyMart,Mid,3.74,5.03,0.34,61,Ambient,0.14,-1.2,All
+P00003,SKU000003,DailyMart Trail Mix,Snacks,Trail Mix,DailyMart,Mid,0.85,1.18,0.39,23,Ambient,0.11,-1.5,All
+P00004,SKU000004,QuickChoice Soap,Household,Soap,QuickChoice,Mid,2.78,3.65,0.31,342,Ambient,0.71,-0.2,All
+P00005,SKU000005,FreshPeak Toothpaste,Personal Care,Toothpaste,FreshPeak,Premium,2.44,3.94,0.62,4,Ambient,0.29,-0.3,All
+P00006,SKU000006,UrbanBrew Gummies,Candy,Gummies,UrbanBrew,Premium,6.31,10.63,0.68,272,Refrigerated,0.39,-1.6,All
+P00007,SKU000007,FreshPeak Yogurt,Dairy,Yogurt,FreshPeak,Premium,3.42,5.19,0.52,55,Ambient,0.97,-0.5,All
+P00008,SKU000008,StoreBasics Tissue,Household,Tissue,StoreBasics,Value,0.62,0.75,0.21,131,Ambient,0.1,-0.2,All
+P00009,SKU000009,EasyBuy Chips,Snacks,Chips,EasyBuy,Value,6.28,7.29,0.16,233,Ambient,0.92,-1.5,All
+P00010,SKU000010,DailyMart Soap,Household,Soap,DailyMart,Mid,0.98,1.32,0.35,218,Ambient,0.63,-0.2,All
+P00011,SKU000011,UrbanSelect Ice Cream,Frozen,Ice Cream,UrbanSelect,Mid,1.4,1.97,0.41,259,Refrigerated,0.31,-0.7,Summer
+P00012,SKU000012,UrbanSelect Milk,Dairy,Milk,UrbanSelect,Mid,1.33,1.82,0.37,181,Ambient,0.67,-0.5,All
+P00013,SKU000013,QuickChoice Chocolate,Candy,Chocolate,QuickChoice,Mid,1.54,2.14,0.39,145,Refrigerated,0.31,-1.6,Winter
+P00014,SKU000014,QuickChoice Milk,Dairy,Milk,QuickChoice,Mid,5.18,6.96,0.34,136,Ambient,0.3,-0.5,All
+P00015,SKU000015,ValuePlus Gummies,Candy,Gummies,ValuePlus,Value,1.42,1.71,0.2,192,Ambient,0.31,-1.6,All
+P00016,SKU000016,UrbanSelect Soap,Household,Soap,UrbanSelect,Mid,0.55,0.76,0.38,139,Ambient,0.72,-0.2,All
+P00017,SKU000017,FreshPeak Toothpaste,Personal Care,Toothpaste,FreshPeak,Premium,3.53,5.18,0.47,54,Ambient,0.73,-0.3,All
+P00018,SKU000018,FreshPeak Chips,Snacks,Chips,FreshPeak,Premium,2.5,4.24,0.69,222,Ambient,0.35,-1.5,All
+P00019,SKU000019,QuickChoice Soda,Beverages,Soda,QuickChoice,Mid,4.48,6.12,0.37,200,Ambient,0.7,-1.2,All
+P00020,SKU000020,QuickChoice Toothpaste,Personal Care,Toothpaste,QuickChoice,Mid,3.26,4.55,0.39,200,Ambient,0.83,-0.3,All
+P00021,SKU000021,QuickChoice Soda,Beverages,Soda,QuickChoice,Mid,5.72,8.17,0.43,254,Ambient,0.11,-1.2,All
+P00022,SKU000022,UrbanSelect Nachos,Snacks,Nachos,UrbanSelect,Mid,1.81,2.54,0.4,130,Ambient,0.85,-1.5,All
+P00023,SKU000023,UrbanSelect Tissue,Household,Tissue,UrbanSelect,Mid,7.08,9.48,0.34,254,Ambient,0.98,-0.2,All
+P00024,SKU000024,DailyMart Bars,Candy,Bars,DailyMart,Mid,1.2,1.72,0.43,39,Refrigerated,0.27,-1.6,All
+P00025,SKU000025,EasyBuy Tissue,Household,Tissue,EasyBuy,Value,6.92,8.38,0.21,163,Ambient,0.18,-0.2,All
+P00026,SKU000026,ValuePlus Shampoo,Personal Care,Shampoo,ValuePlus,Value,0.57,0.66,0.17,101,Frozen,0.36,-0.3,All
+P00027,SKU000027,DailyMart Cold Brew,Coffee,Cold Brew,DailyMart,Mid,2.18,3.07,0.41,291,Ambient,0.26,-0.8,Summer
+P00028,SKU000028,EasyBuy Shampoo,Personal Care,Shampoo,EasyBuy,Value,5.43,6.71,0.24,24,Ambient,0.98,-0.3,All
+P00029,SKU000029,EasyBuy Popcorn,Snacks,Popcorn,EasyBuy,Value,6.46,7.92,0.23,286,Ambient,0.88,-1.5,All
+P00030,SKU000030,FreshPeak Trail Mix,Snacks,Trail Mix,FreshPeak,Premium,0.83,1.41,0.7,160,Frozen,0.92,-1.5,All
+P00031,SKU000031,FreshPeak Trail Mix,Snacks,Trail Mix,FreshPeak,Premium,3.71,6.28,0.69,101,Frozen,0.17,-1.5,All
+P00032,SKU000032,EasyBuy Bagel,Bakery,Bagel,EasyBuy,Value,1.77,2.18,0.23,225,Refrigerated,0.94,-1.3,All
+P00033,SKU000033,QuickChoice Shampoo,Personal Care,Shampoo,QuickChoice,Mid,3.19,4.27,0.34,275,Refrigerated,0.22,-0.3,All
+P00034,SKU000034,QuickChoice Frozen Pizza,Frozen,Frozen Pizza,QuickChoice,Mid,6.57,9.34,0.42,15,Ambient,0.1,-0.7,All
+P00035,SKU000035,UrbanBrew Chocolate,Candy,Chocolate,UrbanBrew,Premium,6.47,10.82,0.67,145,Ambient,0.18,-1.6,Winter
+P00036,SKU000036,FreshPeak Milk,Dairy,Milk,FreshPeak,Premium,1.66,2.81,0.7,152,Ambient,0.13,-0.5,All
+P00037,SKU000037,ValuePlus Gummies,Candy,Gummies,ValuePlus,Value,4.53,5.43,0.2,266,Refrigerated,0.29,-1.6,All
+P00038,SKU000038,FreshPeak Muffin,Bakery,Muffin,FreshPeak,Premium,1.96,3.04,0.55,357,Ambient,0.75,-1.3,All
+P00039,SKU000039,EasyBuy Espresso,Coffee,Espresso,EasyBuy,Value,6.46,7.69,0.19,94,Refrigerated,0.33,-0.8,All
+P00040,SKU000040,StoreBasics Croissant,Bakery,Croissant,StoreBasics,Value,5.66,6.56,0.16,124,Ambient,0.33,-1.3,All
+P00041,SKU000041,FreshPeak Frozen Pizza,Frozen,Frozen Pizza,FreshPeak,Premium,2.6,4.39,0.69,194,Ambient,0.65,-0.7,All
+P00042,SKU000042,UrbanSelect Milk,Dairy,Milk,UrbanSelect,Mid,6.18,8.05,0.3,222,Ambient,0.14,-0.5,All
+P00043,SKU000043,QuickChoice Chocolate,Candy,Chocolate,QuickChoice,Mid,6.23,8.85,0.42,102,Ambient,0.49,-1.6,Winter
+P00044,SKU000044,DailyMart Yogurt,Dairy,Yogurt,DailyMart,Mid,7.15,9.57,0.34,252,Frozen,0.55,-0.5,All
+P00045,SKU000045,UrbanSelect Toothpaste,Personal Care,Toothpaste,UrbanSelect,Mid,7.58,10.84,0.43,162,Frozen,0.62,-0.3,All
+P00046,SKU000046,DailyMart Latte,Coffee,Latte,DailyMart,Mid,6.58,9.36,0.42,270,Ambient,0.97,-0.8,All
+P00047,SKU000047,NatureGold Hot Coffee,Coffee,Hot Coffee,NatureGold,Premium,3.02,4.87,0.61,95,Refrigerated,0.12,-0.8,Winter
+P00048,SKU000048,QuickChoice Latte,Coffee,Latte,QuickChoice,Mid,5.73,7.99,0.39,219,Refrigerated,0.35,-0.8,All
+P00049,SKU000049,UrbanSelect Donut,Bakery,Donut,UrbanSelect,Mid,7.93,10.8,0.36,98,Ambient,0.94,-1.3,All
+P00050,SKU000050,DailyMart Bagel,Bakery,Bagel,DailyMart,Mid,6.05,8.08,0.34,288,Frozen,0.55,-1.3,All
+P00051,SKU000051,UrbanSelect Soap,Household,Soap,UrbanSelect,Mid,3.42,4.45,0.3,235,Refrigerated,0.42,-0.2,All
+P00052,SKU000052,DailyMart Mint,Candy,Mint,DailyMart,Mid,1.19,1.65,0.39,55,Refrigerated,0.81,-1.6,All
+P00053,SKU000053,ValuePlus Croissant,Bakery,Croissant,ValuePlus,Value,4.62,5.62,0.22,217,Ambient,0.74,-1.3,All
+P00054,SKU000054,StoreBasics Soap,Household,Soap,StoreBasics,Value,1.26,1.46,0.16,143,Ambient,0.46,-0.2,All
+P00055,SKU000055,QuickChoice Hot Coffee,Coffee,Hot Coffee,QuickChoice,Mid,7.9,10.71,0.36,323,Refrigerated,0.31,-0.8,Winter
+P00056,SKU000056,QuickChoice Milk,Dairy,Milk,QuickChoice,Mid,5.81,7.97,0.37,184,Refrigerated,0.32,-0.5,All
+P00057,SKU000057,DailyMart Nachos,Snacks,Nachos,DailyMart,Mid,0.59,0.81,0.37,60,Refrigerated,0.79,-1.5,All
+P00058,SKU000058,StoreBasics Tissue,Household,Tissue,StoreBasics,Value,2.28,2.76,0.21,314,Ambient,0.49,-0.2,All
+P00059,SKU000059,UrbanSelect Bagel,Bakery,Bagel,UrbanSelect,Mid,7.39,9.89,0.34,149,Frozen,0.57,-1.3,All
+P00060,SKU000060,UrbanSelect Tissue,Household,Tissue,UrbanSelect,Mid,7.97,11.19,0.4,261,Frozen,0.14,-0.2,All
+P00061,SKU000061,DailyMart Shampoo,Personal Care,Shampoo,DailyMart,Mid,2.58,3.43,0.33,92,Ambient,0.31,-0.3,All
+P00062,SKU000062,UrbanSelect Donut,Bakery,Donut,UrbanSelect,Mid,5.74,7.92,0.38,214,Ambient,0.34,-1.3,All
+P00063,SKU000063,EasyBuy Chips,Snacks,Chips,EasyBuy,Value,5.94,7.38,0.24,12,Frozen,0.88,-1.5,All
+P00064,SKU000064,QuickChoice Muffin,Bakery,Muffin,QuickChoice,Mid,6.58,9.53,0.45,179,Ambient,0.77,-1.3,All
+P00065,SKU000065,StoreBasics Soap,Household,Soap,StoreBasics,Value,6.79,8.29,0.22,101,Ambient,0.11,-0.2,All
+P00066,SKU000066,DailyMart Yogurt,Dairy,Yogurt,DailyMart,Mid,8.0,11.6,0.45,25,Refrigerated,0.95,-0.5,All
+P00067,SKU000067,DailyMart Chips,Snacks,Chips,DailyMart,Mid,1.47,2.12,0.44,207,Ambient,0.89,-1.5,All
+P00068,SKU000068,NatureGold Shampoo,Personal Care,Shampoo,NatureGold,Premium,1.35,2.18,0.62,164,Ambient,0.85,-0.3,All
+P00069,SKU000069,StoreBasics Espresso,Coffee,Espresso,StoreBasics,Value,1.16,1.47,0.27,114,Ambient,0.48,-0.8,All
+P00070,SKU000070,UrbanSelect Donut,Bakery,Donut,UrbanSelect,Mid,2.1,2.77,0.32,254,Frozen,0.65,-1.3,All
+P00071,SKU000071,UrbanSelect Cold Brew,Coffee,Cold Brew,UrbanSelect,Mid,7.28,9.84,0.35,168,Ambient,0.92,-0.8,Summer
+P00072,SKU000072,StoreBasics Yogurt,Dairy,Yogurt,StoreBasics,Value,6.47,7.89,0.22,332,Refrigerated,0.16,-0.5,All
+P00073,SKU000073,QuickChoice Croissant,Bakery,Croissant,QuickChoice,Mid,2.97,4.14,0.4,242,Ambient,0.58,-1.3,All
+P00074,SKU000074,UrbanSelect Milk,Dairy,Milk,UrbanSelect,Mid,1.54,2.15,0.4,362,Ambient,0.47,-0.5,All
+P00075,SKU000075,QuickChoice Nachos,Snacks,Nachos,QuickChoice,Mid,5.01,6.68,0.33,279,Ambient,0.35,-1.5,All
+P00076,SKU000076,DailyMart Ice Cream,Frozen,Ice Cream,DailyMart,Mid,3.96,5.27,0.33,36,Ambient,0.4,-0.7,Summer
+P00077,SKU000077,StoreBasics Soap,Household,Soap,StoreBasics,Value,5.66,6.94,0.23,109,Frozen,0.15,-0.2,All
+P00078,SKU000078,NatureGold Chocolate,Candy,Chocolate,NatureGold,Premium,1.88,2.82,0.5,129,Frozen,0.31,-1.6,Winter
+P00079,SKU000079,DailyMart Yogurt,Dairy,Yogurt,DailyMart,Mid,0.97,1.28,0.32,9,Ambient,0.86,-0.5,All
+P00080,SKU000080,UrbanSelect Cold Brew,Coffee,Cold Brew,UrbanSelect,Mid,2.32,3.11,0.34,30,Ambient,0.39,-0.8,Summer
+P00081,SKU000081,DailyMart Yogurt,Dairy,Yogurt,DailyMart,Mid,7.18,9.97,0.39,70,Ambient,0.68,-0.5,All
+P00082,SKU000082,QuickChoice Latte,Coffee,Latte,QuickChoice,Mid,4.9,6.92,0.41,238,Ambient,0.36,-0.8,All
+P00083,SKU000083,QuickChoice Frozen Pizza,Frozen,Frozen Pizza,QuickChoice,Mid,2.33,3.2,0.37,231,Frozen,0.11,-0.7,All
+P00084,SKU000084,QuickChoice Croissant,Bakery,Croissant,QuickChoice,Mid,1.9,2.55,0.34,97,Ambient,0.86,-1.3,All
+P00085,SKU000085,FreshPeak Nachos,Snacks,Nachos,FreshPeak,Premium,7.87,11.63,0.48,324,Ambient,0.93,-1.5,All
+P00086,SKU000086,QuickChoice Frozen Pizza,Frozen,Frozen Pizza,QuickChoice,Mid,5.51,7.93,0.44,337,Ambient,0.53,-0.7,All
+P00087,SKU000087,EasyBuy Croissant,Bakery,Croissant,EasyBuy,Value,2.0,2.52,0.26,142,Ambient,0.65,-1.3,All
+P00088,SKU000088,UrbanSelect Ice Cream,Frozen,Ice Cream,UrbanSelect,Mid,4.11,5.67,0.38,163,Ambient,0.51,-0.7,Summer
+P00089,SKU000089,QuickChoice Muffin,Bakery,Muffin,QuickChoice,Mid,2.92,4.15,0.42,323,Ambient,0.1,-1.3,All
+P00090,SKU000090,QuickChoice Tissue,Household,Tissue,QuickChoice,Mid,3.59,4.85,0.35,307,Refrigerated,0.77,-0.2,All
+P00091,SKU000091,EasyBuy Cold Brew,Coffee,Cold Brew,EasyBuy,Value,7.54,8.88,0.18,37,Frozen,0.75,-0.8,Summer
+P00092,SKU000092,ValuePlus Toothpaste,Personal Care,Toothpaste,ValuePlus,Value,6.5,8.28,0.27,167,Refrigerated,0.7,-0.3,All
+P00093,SKU000093,StoreBasics Chocolate,Candy,Chocolate,StoreBasics,Value,5.62,6.84,0.22,106,Ambient,0.52,-1.6,Winter
+P00094,SKU000094,EasyBuy Ice Cream,Frozen,Ice Cream,EasyBuy,Value,4.83,5.81,0.2,311,Frozen,0.66,-0.7,Summer
+P00095,SKU000095,EasyBuy Popcorn,Snacks,Popcorn,EasyBuy,Value,5.98,7.5,0.25,17,Refrigerated,0.55,-1.5,All
+P00096,SKU000096,ValuePlus Milk,Dairy,Milk,ValuePlus,Value,6.14,7.71,0.26,291,Ambient,0.61,-0.5,All
+P00097,SKU000097,ValuePlus Muffin,Bakery,Muffin,ValuePlus,Value,6.66,7.77,0.17,230,Ambient,0.64,-1.3,All
+P00098,SKU000098,DailyMart Toothpaste,Personal Care,Toothpaste,DailyMart,Mid,5.9,8.24,0.4,245,Ambient,0.74,-0.3,All
+P00099,SKU000099,UrbanBrew Bagel,Bakery,Bagel,UrbanBrew,Premium,3.07,4.63,0.51,25,Ambient,0.95,-1.3,All
+P00100,SKU000100,FreshPeak Shampoo,Personal Care,Shampoo,FreshPeak,Premium,0.64,1.07,0.67,358,Frozen,0.81,-0.3,All
+P00101,SKU000101,DailyMart Bagel,Bakery,Bagel,DailyMart,Mid,4.82,6.7,0.39,53,Refrigerated,0.94,-1.3,All
+P00102,SKU000102,QuickChoice Ice Cream,Frozen,Ice Cream,QuickChoice,Mid,2.27,3.01,0.32,184,Refrigerated,0.4,-0.7,Summer
+P00103,SKU000103,UrbanSelect Ice Cream,Frozen,Ice Cream,UrbanSelect,Mid,3.49,4.57,0.31,139,Ambient,0.81,-0.7,Summer
+P00104,SKU000104,DailyMart Tissue,Household,Tissue,DailyMart,Mid,6.98,10.04,0.44,212,Ambient,0.93,-0.2,All
+P00105,SKU000105,NatureGold Popcorn,Snacks,Popcorn,NatureGold,Premium,1.74,2.54,0.46,163,Ambient,0.62,-1.5,All
+P00106,SKU000106,FreshPeak Frozen Pizza,Frozen,Frozen Pizza,FreshPeak,Premium,4.36,7.39,0.69,363,Ambient,0.47,-0.7,All
+P00107,SKU000107,DailyMart Toothpaste,Personal Care,Toothpaste,DailyMart,Mid,3.48,4.75,0.36,213,Ambient,0.52,-0.3,All
+P00108,SKU000108,UrbanSelect Soda,Beverages,Soda,UrbanSelect,Mid,0.99,1.4,0.42,177,Ambient,0.58,-1.2,All
+P00109,SKU000109,UrbanSelect Water,Beverages,Water,UrbanSelect,Mid,1.66,2.2,0.33,57,Frozen,0.44,-1.2,All
+P00110,SKU000110,DailyMart Popcorn,Snacks,Popcorn,DailyMart,Mid,0.69,0.91,0.32,180,Refrigerated,0.47,-1.5,All
+P00111,SKU000111,UrbanSelect Tissue,Household,Tissue,UrbanSelect,Mid,5.54,7.22,0.3,56,Ambient,0.61,-0.2,All
+P00112,SKU000112,QuickChoice Chips,Snacks,Chips,QuickChoice,Mid,6.54,9.47,0.45,290,Refrigerated,0.85,-1.5,All
+P00113,SKU000113,DailyMart Bars,Candy,Bars,DailyMart,Mid,3.55,4.79,0.35,9,Ambient,0.76,-1.6,All
+P00114,SKU000114,NatureGold Muffin,Bakery,Muffin,NatureGold,Premium,4.87,7.57,0.56,4,Frozen,0.66,-1.3,All
+P00115,SKU000115,DailyMart Latte,Coffee,Latte,DailyMart,Mid,3.09,4.38,0.42,228,Refrigerated,0.3,-0.8,All
+P00116,SKU000116,UrbanBrew Frozen Pizza,Frozen,Frozen Pizza,UrbanBrew,Premium,4.74,8.04,0.7,217,Refrigerated,0.48,-0.7,All
+P00117,SKU000117,QuickChoice Chips,Snacks,Chips,QuickChoice,Mid,5.25,7.03,0.34,248,Ambient,0.48,-1.5,All
+P00118,SKU000118,QuickChoice Latte,Coffee,Latte,QuickChoice,Mid,7.36,9.7,0.32,358,Ambient,0.16,-0.8,All
+P00119,SKU000119,UrbanSelect Donut,Bakery,Donut,UrbanSelect,Mid,1.3,1.72,0.32,29,Frozen,0.89,-1.3,All
+P00120,SKU000120,DailyMart Shampoo,Personal Care,Shampoo,DailyMart,Mid,4.21,5.84,0.39,192,Ambient,0.14,-0.3,All
+P00121,SKU000121,FreshPeak Ice Cream,Frozen,Ice Cream,FreshPeak,Premium,5.02,7.59,0.51,151,Refrigerated,0.49,-0.7,Summer
+P00122,SKU000122,EasyBuy Chocolate,Candy,Chocolate,EasyBuy,Value,7.62,9.22,0.21,154,Frozen,0.76,-1.6,Winter
+P00123,SKU000123,NatureGold Water,Beverages,Water,NatureGold,Premium,4.96,7.26,0.46,203,Refrigerated,0.2,-1.2,All
+P00124,SKU000124,StoreBasics Soap,Household,Soap,StoreBasics,Value,5.79,7.18,0.24,27,Ambient,0.84,-0.2,All
+P00125,SKU000125,QuickChoice Bagel,Bakery,Bagel,QuickChoice,Mid,0.54,0.71,0.32,103,Ambient,0.93,-1.3,All
+P00126,SKU000126,DailyMart Water,Beverages,Water,DailyMart,Mid,1.89,2.61,0.38,218,Refrigerated,0.68,-1.2,All
+P00127,SKU000127,ValuePlus Juice,Beverages,Juice,ValuePlus,Value,7.85,10.09,0.29,270,Ambient,0.99,-1.2,All
+P00128,SKU000128,FreshPeak Milk,Dairy,Milk,FreshPeak,Premium,4.05,6.19,0.53,337,Ambient,0.37,-0.5,All
+P00129,SKU000129,DailyMart Shampoo,Personal Care,Shampoo,DailyMart,Mid,4.06,5.8,0.43,105,Ambient,0.64,-0.3,All
+P00130,SKU000130,UrbanBrew Trail Mix,Snacks,Trail Mix,UrbanBrew,Premium,7.14,11.3,0.58,185,Ambient,0.62,-1.5,All
+P00131,SKU000131,QuickChoice Toothpaste,Personal Care,Toothpaste,QuickChoice,Mid,2.89,4.03,0.39,18,Ambient,0.89,-0.3,All
+P00132,SKU000132,QuickChoice Latte,Coffee,Latte,QuickChoice,Mid,0.66,0.94,0.43,143,Ambient,0.94,-0.8,All
+P00133,SKU000133,QuickChoice Yogurt,Dairy,Yogurt,QuickChoice,Mid,1.16,1.51,0.31,238,Ambient,0.89,-0.5,All
+P00134,SKU000134,NatureGold Soap,Household,Soap,NatureGold,Premium,3.66,5.98,0.63,179,Ambient,0.42,-0.2,All
+P00135,SKU000135,StoreBasics Espresso,Coffee,Espresso,StoreBasics,Value,0.82,0.95,0.15,75,Ambient,0.45,-0.8,All
+P00136,SKU000136,StoreBasics Bars,Candy,Bars,StoreBasics,Value,6.4,7.45,0.16,200,Frozen,0.9,-1.6,All
+P00137,SKU000137,ValuePlus Toothpaste,Personal Care,Toothpaste,ValuePlus,Value,1.75,2.27,0.3,61,Ambient,0.85,-0.3,All
+P00138,SKU000138,ValuePlus Ice Cream,Frozen,Ice Cream,ValuePlus,Value,2.23,2.62,0.18,220,Ambient,0.96,-0.7,Summer
+P00139,SKU000139,ValuePlus Shampoo,Personal Care,Shampoo,ValuePlus,Value,7.77,9.97,0.28,101,Ambient,0.57,-0.3,All
+P00140,SKU000140,DailyMart Popcorn,Snacks,Popcorn,DailyMart,Mid,1.65,2.35,0.42,271,Ambient,0.58,-1.5,All
+P00141,SKU000141,QuickChoice Soap,Household,Soap,QuickChoice,Mid,3.93,5.34,0.36,125,Ambient,0.9,-0.2,All
+P00142,SKU000142,StoreBasics Soap,Household,Soap,StoreBasics,Value,2.97,3.83,0.29,228,Ambient,0.44,-0.2,All
+P00143,SKU000143,ValuePlus Toothpaste,Personal Care,Toothpaste,ValuePlus,Value,4.49,5.81,0.29,178,Ambient,0.17,-0.3,All
+P00144,SKU000144,QuickChoice Water,Beverages,Water,QuickChoice,Mid,4.94,7.03,0.42,58,Ambient,0.59,-1.2,All
+P00145,SKU000145,DailyMart Water,Beverages,Water,DailyMart,Mid,1.68,2.22,0.32,271,Refrigerated,0.73,-1.2,All
+P00146,SKU000146,UrbanSelect Mint,Candy,Mint,UrbanSelect,Mid,7.11,10.27,0.44,251,Ambient,0.84,-1.6,All
+P00147,SKU000147,ValuePlus Croissant,Bakery,Croissant,ValuePlus,Value,6.63,8.45,0.27,14,Ambient,0.36,-1.3,All
+P00148,SKU000148,UrbanSelect Soda,Beverages,Soda,UrbanSelect,Mid,3.33,4.33,0.3,165,Ambient,0.36,-1.2,All
+P00149,SKU000149,QuickChoice Yogurt,Dairy,Yogurt,QuickChoice,Mid,3.06,4.27,0.39,224,Refrigerated,0.81,-0.5,All
+P00150,SKU000150,EasyBuy Bars,Candy,Bars,EasyBuy,Value,1.75,2.21,0.27,195,Ambient,0.17,-1.6,All
+P00151,SKU000151,EasyBuy Cold Brew,Coffee,Cold Brew,EasyBuy,Value,7.77,9.81,0.26,229,Ambient,0.45,-0.8,Summer
+P00152,SKU000152,UrbanSelect Water,Beverages,Water,UrbanSelect,Mid,2.39,3.11,0.3,228,Frozen,0.48,-1.2,All
+P00153,SKU000153,DailyMart Tissue,Household,Tissue,DailyMart,Mid,5.7,7.6,0.33,132,Refrigerated,0.31,-0.2,All
+P00154,SKU000154,StoreBasics Chips,Snacks,Chips,StoreBasics,Value,7.58,9.19,0.21,86,Ambient,0.35,-1.5,All
+P00155,SKU000155,QuickChoice Nachos,Snacks,Nachos,QuickChoice,Mid,2.22,2.96,0.33,322,Refrigerated,0.74,-1.5,All
+P00156,SKU000156,UrbanSelect Latte,Coffee,Latte,UrbanSelect,Mid,7.76,10.3,0.33,147,Ambient,0.24,-0.8,All
+P00157,SKU000157,FreshPeak Espresso,Coffee,Espresso,FreshPeak,Premium,1.48,2.16,0.46,318,Frozen,0.27,-0.8,All
+P00158,SKU000158,FreshPeak Soap,Household,Soap,FreshPeak,Premium,5.05,7.64,0.51,11,Ambient,0.54,-0.2,All
+P00159,SKU000159,QuickChoice Frozen Pizza,Frozen,Frozen Pizza,QuickChoice,Mid,6.48,8.73,0.35,207,Ambient,0.52,-0.7,All
+P00160,SKU000160,ValuePlus Cold Brew,Coffee,Cold Brew,ValuePlus,Value,2.69,3.37,0.25,291,Frozen,0.92,-0.8,Summer
+P00161,SKU000161,FreshPeak Ice Cream,Frozen,Ice Cream,FreshPeak,Premium,1.27,2.02,0.59,82,Ambient,0.29,-0.7,Summer
+P00162,SKU000162,ValuePlus Water,Beverages,Water,ValuePlus,Value,2.95,3.62,0.23,291,Refrigerated,0.17,-1.2,All
+P00163,SKU000163,QuickChoice Gummies,Candy,Gummies,QuickChoice,Mid,7.83,10.41,0.33,124,Refrigerated,0.28,-1.6,All
+P00164,SKU000164,NatureGold Yogurt,Dairy,Yogurt,NatureGold,Premium,1.43,2.39,0.67,11,Frozen,0.15,-0.5,All
+P00165,SKU000165,ValuePlus Soap,Household,Soap,ValuePlus,Value,5.19,6.58,0.27,113,Refrigerated,0.17,-0.2,All
+P00166,SKU000166,QuickChoice Bars,Candy,Bars,QuickChoice,Mid,6.38,8.75,0.37,129,Ambient,0.76,-1.6,All
+P00167,SKU000167,DailyMart Cold Brew,Coffee,Cold Brew,DailyMart,Mid,4.09,5.69,0.39,149,Frozen,0.4,-0.8,Summer
+P00168,SKU000168,EasyBuy Toothpaste,Personal Care,Toothpaste,EasyBuy,Value,0.83,0.97,0.17,213,Ambient,1.0,-0.3,All
+P00169,SKU000169,QuickChoice Tissue,Household,Tissue,QuickChoice,Mid,3.52,4.69,0.33,209,Ambient,0.52,-0.2,All
+P00170,SKU000170,DailyMart Muffin,Bakery,Muffin,DailyMart,Mid,3.09,4.19,0.36,22,Ambient,0.59,-1.3,All
+P00171,SKU000171,QuickChoice Trail Mix,Snacks,Trail Mix,QuickChoice,Mid,5.94,8.16,0.37,68,Ambient,0.81,-1.5,All
+P00172,SKU000172,ValuePlus Yogurt,Dairy,Yogurt,ValuePlus,Value,7.34,8.67,0.18,239,Ambient,0.85,-0.5,All
+P00173,SKU000173,ValuePlus Juice,Beverages,Juice,ValuePlus,Value,1.85,2.19,0.19,336,Ambient,0.47,-1.2,All
+P00174,SKU000174,QuickChoice Ice Cream,Frozen,Ice Cream,QuickChoice,Mid,7.03,9.61,0.37,233,Ambient,0.63,-0.7,Summer
+P00175,SKU000175,DailyMart Ice Cream,Frozen,Ice Cream,DailyMart,Mid,3.49,4.99,0.43,263,Ambient,0.8,-0.7,Summer
+P00176,SKU000176,EasyBuy Shampoo,Personal Care,Shampoo,EasyBuy,Value,2.26,2.9,0.28,120,Ambient,0.57,-0.3,All
+P00177,SKU000177,UrbanSelect Tissue,Household,Tissue,UrbanSelect,Mid,7.61,10.18,0.34,286,Ambient,0.76,-0.2,All
+P00178,SKU000178,DailyMart Bagel,Bakery,Bagel,DailyMart,Mid,5.79,7.91,0.37,209,Ambient,0.59,-1.3,All
+P00179,SKU000179,StoreBasics Gummies,Candy,Gummies,StoreBasics,Value,4.48,5.78,0.29,287,Ambient,0.3,-1.6,All
+P00180,SKU000180,FreshPeak Donut,Bakery,Donut,FreshPeak,Premium,4.3,6.28,0.46,278,Frozen,0.97,-1.3,All
+P00181,SKU000181,DailyMart Hot Coffee,Coffee,Hot Coffee,DailyMart,Mid,4.85,6.49,0.34,180,Ambient,0.58,-0.8,Winter
+P00182,SKU000182,UrbanBrew Yogurt,Dairy,Yogurt,UrbanBrew,Premium,2.01,3.25,0.62,343,Ambient,0.71,-0.5,All
+P00183,SKU000183,EasyBuy Ice Cream,Frozen,Ice Cream,EasyBuy,Value,5.69,7.26,0.28,220,Ambient,0.12,-0.7,Summer
+P00184,SKU000184,EasyBuy Hot Coffee,Coffee,Hot Coffee,EasyBuy,Value,4.78,5.52,0.15,330,Refrigerated,0.93,-0.8,Winter
+P00185,SKU000185,ValuePlus Juice,Beverages,Juice,ValuePlus,Value,3.45,4.3,0.25,92,Ambient,0.24,-1.2,All
+P00186,SKU000186,StoreBasics Ice Cream,Frozen,Ice Cream,StoreBasics,Value,7.95,10.04,0.26,247,Ambient,0.76,-0.7,Summer
+P00187,SKU000187,QuickChoice Gummies,Candy,Gummies,QuickChoice,Mid,7.44,10.16,0.37,84,Refrigerated,0.39,-1.6,All
+P00188,SKU000188,UrbanSelect Energy Drink,Beverages,Energy Drink,UrbanSelect,Mid,0.54,0.73,0.35,78,Ambient,0.61,-1.2,All
+P00189,SKU000189,DailyMart Trail Mix,Snacks,Trail Mix,DailyMart,Mid,2.28,3.09,0.36,104,Ambient,0.64,-1.5,All
+P00190,SKU000190,DailyMart Cold Brew,Coffee,Cold Brew,DailyMart,Mid,6.98,9.62,0.38,119,Refrigerated,0.2,-0.8,Summer
+P00191,SKU000191,UrbanSelect Croissant,Bakery,Croissant,UrbanSelect,Mid,4.5,6.26,0.39,345,Refrigerated,0.75,-1.3,All
+P00192,SKU000192,UrbanSelect Muffin,Bakery,Muffin,UrbanSelect,Mid,1.03,1.49,0.44,294,Frozen,0.15,-1.3,All
+P00193,SKU000193,QuickChoice Donut,Bakery,Donut,QuickChoice,Mid,1.75,2.44,0.39,54,Ambient,0.94,-1.3,All
+P00194,SKU000194,QuickChoice Trail Mix,Snacks,Trail Mix,QuickChoice,Mid,5.87,7.87,0.34,134,Refrigerated,0.57,-1.5,All
+P00195,SKU000195,EasyBuy Milk,Dairy,Milk,EasyBuy,Value,4.44,5.58,0.26,314,Refrigerated,0.27,-0.5,All
+P00196,SKU000196,QuickChoice Shampoo,Personal Care,Shampoo,QuickChoice,Mid,6.54,9.04,0.38,175,Ambient,0.96,-0.3,All
+P00197,SKU000197,ValuePlus Yogurt,Dairy,Yogurt,ValuePlus,Value,4.95,6.28,0.27,273,Ambient,0.47,-0.5,All
+P00198,SKU000198,QuickChoice Shampoo,Personal Care,Shampoo,QuickChoice,Mid,2.42,3.26,0.35,154,Refrigerated,0.48,-0.3,All
+P00199,SKU000199,ValuePlus Soap,Household,Soap,ValuePlus,Value,3.89,4.82,0.24,177,Ambient,0.88,-0.2,All
+P00200,SKU000200,QuickChoice Juice,Beverages,Juice,QuickChoice,Mid,0.68,0.95,0.4,162,Ambient,0.33,-1.2,All
+P00201,SKU000201,NatureGold Soap,Household,Soap,NatureGold,Premium,4.98,8.06,0.62,44,Ambient,0.75,-0.2,All
+P00202,SKU000202,ValuePlus Juice,Beverages,Juice,ValuePlus,Value,1.28,1.61,0.26,44,Frozen,0.8,-1.2,All
+P00203,SKU000203,UrbanSelect Bars,Candy,Bars,UrbanSelect,Mid,3.51,4.76,0.36,72,Ambient,0.16,-1.6,All
+P00204,SKU000204,FreshPeak Energy Drink,Beverages,Energy Drink,FreshPeak,Premium,1.02,1.64,0.61,266,Refrigerated,0.69,-1.2,All
+P00205,SKU000205,UrbanSelect Frozen Pizza,Frozen,Frozen Pizza,UrbanSelect,Mid,1.93,2.52,0.31,174,Ambient,0.6,-0.7,All
+P00206,SKU000206,QuickChoice Latte,Coffee,Latte,QuickChoice,Mid,4.72,6.81,0.44,335,Ambient,0.78,-0.8,All
+P00207,SKU000207,QuickChoice Yogurt,Dairy,Yogurt,QuickChoice,Mid,3.88,5.48,0.41,147,Ambient,0.98,-0.5,All
+P00208,SKU000208,UrbanSelect Trail Mix,Snacks,Trail Mix,UrbanSelect,Mid,3.49,4.62,0.32,7,Refrigerated,0.79,-1.5,All
+P00209,SKU000209,QuickChoice Soda,Beverages,Soda,QuickChoice,Mid,2.43,3.45,0.42,290,Ambient,0.84,-1.2,All
+P00210,SKU000210,ValuePlus Frozen Pizza,Frozen,Frozen Pizza,ValuePlus,Value,1.38,1.63,0.18,239,Ambient,0.18,-0.7,All
+P00211,SKU000211,UrbanSelect Tissue,Household,Tissue,UrbanSelect,Mid,3.48,4.76,0.37,198,Refrigerated,0.25,-0.2,All
+P00212,SKU000212,DailyMart Ice Cream,Frozen,Ice Cream,DailyMart,Mid,3.43,4.72,0.38,51,Ambient,0.84,-0.7,Summer
+P00213,SKU000213,ValuePlus Popcorn,Snacks,Popcorn,ValuePlus,Value,5.91,6.92,0.17,9,Ambient,0.17,-1.5,All
+P00214,SKU000214,UrbanBrew Muffin,Bakery,Muffin,UrbanBrew,Premium,2.18,3.68,0.69,258,Frozen,0.62,-1.3,All
+P00215,SKU000215,ValuePlus Ice Cream,Frozen,Ice Cream,ValuePlus,Value,1.54,1.98,0.28,240,Ambient,0.55,-0.7,Summer
+P00216,SKU000216,FreshPeak Soap,Household,Soap,FreshPeak,Premium,1.41,2.21,0.57,27,Ambient,0.17,-0.2,All
+P00217,SKU000217,UrbanSelect Gummies,Candy,Gummies,UrbanSelect,Mid,5.31,7.08,0.33,256,Ambient,0.43,-1.6,All
+P00218,SKU000218,ValuePlus Chips,Snacks,Chips,ValuePlus,Value,2.09,2.56,0.22,180,Ambient,0.73,-1.5,All
+P00219,SKU000219,UrbanSelect Tissue,Household,Tissue,UrbanSelect,Mid,1.06,1.5,0.42,265,Ambient,0.16,-0.2,All
+P00220,SKU000220,StoreBasics Bars,Candy,Bars,StoreBasics,Value,2.24,2.65,0.18,223,Ambient,0.57,-1.6,All
+P00221,SKU000221,NatureGold Yogurt,Dairy,Yogurt,NatureGold,Premium,3.87,5.8,0.5,9,Ambient,0.53,-0.5,All
+P00222,SKU000222,DailyMart Milk,Dairy,Milk,DailyMart,Mid,0.58,0.79,0.36,221,Ambient,0.81,-0.5,All
+P00223,SKU000223,UrbanSelect Croissant,Bakery,Croissant,UrbanSelect,Mid,5.14,6.93,0.35,244,Ambient,0.28,-1.3,All
+P00224,SKU000224,FreshPeak Donut,Bakery,Donut,FreshPeak,Premium,1.32,2.09,0.59,193,Ambient,0.34,-1.3,All
+P00225,SKU000225,UrbanBrew Croissant,Bakery,Croissant,UrbanBrew,Premium,2.94,4.8,0.63,234,Refrigerated,0.65,-1.3,All
+P00226,SKU000226,StoreBasics Frozen Pizza,Frozen,Frozen Pizza,StoreBasics,Value,1.5,1.75,0.17,122,Ambient,0.72,-0.7,All
+P00227,SKU000227,StoreBasics Water,Beverages,Water,StoreBasics,Value,6.69,8.19,0.22,266,Refrigerated,0.67,-1.2,All
+P00228,SKU000228,DailyMart Energy Drink,Beverages,Energy Drink,DailyMart,Mid,1.63,2.3,0.41,89,Ambient,0.14,-1.2,All
+P00229,SKU000229,StoreBasics Tissue,Household,Tissue,StoreBasics,Value,6.52,7.6,0.17,19,Frozen,0.76,-0.2,All
+P00230,SKU000230,EasyBuy Mint,Candy,Mint,EasyBuy,Value,5.46,6.43,0.18,263,Ambient,0.85,-1.6,All
+P00231,SKU000231,UrbanSelect Shampoo,Personal Care,Shampoo,UrbanSelect,Mid,1.12,1.62,0.45,225,Refrigerated,0.31,-0.3,All
+P00232,SKU000232,UrbanSelect Soap,Household,Soap,UrbanSelect,Mid,1.41,1.96,0.39,80,Ambient,0.96,-0.2,All
+P00233,SKU000233,ValuePlus Yogurt,Dairy,Yogurt,ValuePlus,Value,6.49,7.75,0.19,260,Ambient,0.62,-0.5,All
+P00234,SKU000234,FreshPeak Latte,Coffee,Latte,FreshPeak,Premium,7.46,11.24,0.51,155,Ambient,0.6,-0.8,All
+P00235,SKU000235,ValuePlus Soap,Household,Soap,ValuePlus,Value,7.46,9.34,0.25,176,Ambient,0.99,-0.2,All
+P00236,SKU000236,StoreBasics Milk,Dairy,Milk,StoreBasics,Value,4.58,5.7,0.25,151,Frozen,0.77,-0.5,All
+P00237,SKU000237,UrbanSelect Milk,Dairy,Milk,UrbanSelect,Mid,2.9,4.1,0.41,347,Frozen,0.14,-0.5,All
+P00238,SKU000238,NatureGold Cold Brew,Coffee,Cold Brew,NatureGold,Premium,1.19,2.01,0.69,90,Ambient,0.47,-0.8,Summer
+P00239,SKU000239,EasyBuy Donut,Bakery,Donut,EasyBuy,Value,2.73,3.37,0.23,32,Refrigerated,0.67,-1.3,All
+P00240,SKU000240,UrbanBrew Muffin,Bakery,Muffin,UrbanBrew,Premium,0.57,0.86,0.51,263,Refrigerated,0.35,-1.3,All
+P00241,SKU000241,ValuePlus Trail Mix,Snacks,Trail Mix,ValuePlus,Value,2.03,2.5,0.23,304,Ambient,0.27,-1.5,All
+P00242,SKU000242,ValuePlus Soap,Household,Soap,ValuePlus,Value,6.86,8.75,0.28,14,Refrigerated,0.28,-0.2,All
+P00243,SKU000243,UrbanSelect Hot Coffee,Coffee,Hot Coffee,UrbanSelect,Mid,6.17,8.8,0.43,72,Refrigerated,1.0,-0.8,Winter
+P00244,SKU000244,QuickChoice Mint,Candy,Mint,QuickChoice,Mid,7.15,9.93,0.39,295,Ambient,0.1,-1.6,All
+P00245,SKU000245,UrbanBrew Milk,Dairy,Milk,UrbanBrew,Premium,3.17,5.23,0.65,22,Ambient,0.89,-0.5,All
+P00246,SKU000246,UrbanBrew Trail Mix,Snacks,Trail Mix,UrbanBrew,Premium,4.71,7.49,0.59,256,Ambient,0.64,-1.5,All
+P00247,SKU000247,NatureGold Nachos,Snacks,Nachos,NatureGold,Premium,4.24,6.23,0.47,154,Ambient,0.81,-1.5,All
+P00248,SKU000248,EasyBuy Ice Cream,Frozen,Ice Cream,EasyBuy,Value,3.8,4.45,0.17,185,Refrigerated,0.31,-0.7,Summer
+P00249,SKU000249,UrbanSelect Chocolate,Candy,Chocolate,UrbanSelect,Mid,6.25,8.81,0.41,120,Ambient,0.48,-1.6,Winter
+P00250,SKU000250,EasyBuy Bars,Candy,Bars,EasyBuy,Value,5.64,7.32,0.3,126,Ambient,0.61,-1.6,All
+P00251,SKU000251,QuickChoice Donut,Bakery,Donut,QuickChoice,Mid,3.01,3.92,0.3,115,Ambient,0.63,-1.3,All
+P00252,SKU000252,EasyBuy Ice Cream,Frozen,Ice Cream,EasyBuy,Value,7.56,8.99,0.19,304,Ambient,0.44,-0.7,Summer
+P00253,SKU000253,ValuePlus Bagel,Bakery,Bagel,ValuePlus,Value,7.53,9.46,0.26,92,Ambient,0.76,-1.3,All
+P00254,SKU000254,DailyMart Latte,Coffee,Latte,DailyMart,Mid,0.55,0.72,0.31,176,Ambient,0.22,-0.8,All
+P00255,SKU000255,DailyMart Bars,Candy,Bars,DailyMart,Mid,1.02,1.33,0.31,344,Ambient,0.32,-1.6,All
+P00256,SKU000256,QuickChoice Shampoo,Personal Care,Shampoo,QuickChoice,Mid,3.72,5.31,0.43,72,Ambient,0.54,-0.3,All
+P00257,SKU000257,UrbanBrew Toothpaste,Personal Care,Toothpaste,UrbanBrew,Premium,4.71,7.24,0.54,180,Ambient,0.41,-0.3,All
+P00258,SKU000258,UrbanSelect Espresso,Coffee,Espresso,UrbanSelect,Mid,7.12,9.68,0.36,156,Ambient,0.33,-0.8,All
+P00259,SKU000259,ValuePlus Tissue,Household,Tissue,ValuePlus,Value,1.59,2.0,0.26,307,Ambient,0.97,-0.2,All
+P00260,SKU000260,UrbanBrew Tissue,Household,Tissue,UrbanBrew,Premium,5.9,9.17,0.55,329,Ambient,0.59,-0.2,All
+P00261,SKU000261,QuickChoice Toothpaste,Personal Care,Toothpaste,QuickChoice,Mid,4.57,6.48,0.42,179,Ambient,0.17,-0.3,All
+P00262,SKU000262,DailyMart Frozen Pizza,Frozen,Frozen Pizza,DailyMart,Mid,1.56,2.18,0.4,59,Ambient,0.52,-0.7,All
+P00263,SKU000263,EasyBuy Chips,Snacks,Chips,EasyBuy,Value,4.34,5.52,0.27,140,Frozen,0.81,-1.5,All
+P00264,SKU000264,DailyMart Energy Drink,Beverages,Energy Drink,DailyMart,Mid,1.74,2.35,0.35,216,Ambient,0.21,-1.2,All
+P00265,SKU000265,EasyBuy Frozen Pizza,Frozen,Frozen Pizza,EasyBuy,Value,7.6,9.38,0.23,286,Refrigerated,0.12,-0.7,All
+P00266,SKU000266,DailyMart Soap,Household,Soap,DailyMart,Mid,3.43,4.87,0.42,169,Ambient,0.84,-0.2,All
+P00267,SKU000267,EasyBuy Latte,Coffee,Latte,EasyBuy,Value,1.97,2.32,0.18,10,Ambient,0.81,-0.8,All
+P00268,SKU000268,UrbanSelect Chocolate,Candy,Chocolate,UrbanSelect,Mid,5.32,7.07,0.33,240,Ambient,0.24,-1.6,Winter
+P00269,SKU000269,EasyBuy Gummies,Candy,Gummies,EasyBuy,Value,5.1,6.14,0.2,285,Ambient,0.99,-1.6,All
+P00270,SKU000270,DailyMart Energy Drink,Beverages,Energy Drink,DailyMart,Mid,5.99,8.52,0.42,103,Ambient,0.65,-1.2,All
+P00271,SKU000271,EasyBuy Ice Cream,Frozen,Ice Cream,EasyBuy,Value,4.29,5.56,0.3,65,Ambient,0.21,-0.7,Summer
+P00272,SKU000272,ValuePlus Espresso,Coffee,Espresso,ValuePlus,Value,3.71,4.36,0.17,285,Ambient,0.18,-0.8,All
+P00273,SKU000273,ValuePlus Chocolate,Candy,Chocolate,ValuePlus,Value,1.1,1.39,0.26,191,Ambient,0.37,-1.6,Winter
+P00274,SKU000274,FreshPeak Frozen Pizza,Frozen,Frozen Pizza,FreshPeak,Premium,4.03,6.67,0.66,215,Ambient,0.84,-0.7,All
+P00275,SKU000275,ValuePlus Bagel,Bakery,Bagel,ValuePlus,Value,5.89,7.14,0.21,36,Ambient,0.51,-1.3,All
+P00276,SKU000276,QuickChoice Tissue,Household,Tissue,QuickChoice,Mid,6.04,8.58,0.42,352,Frozen,0.67,-0.2,All
+P00277,SKU000277,QuickChoice Chocolate,Candy,Chocolate,QuickChoice,Mid,2.86,3.72,0.3,49,Ambient,0.87,-1.6,Winter
+P00278,SKU000278,NatureGold Energy Drink,Beverages,Energy Drink,NatureGold,Premium,3.05,5.08,0.67,305,Ambient,0.29,-1.2,All
+P00279,SKU000279,QuickChoice Chips,Snacks,Chips,QuickChoice,Mid,6.19,8.89,0.44,41,Refrigerated,0.15,-1.5,All
+P00280,SKU000280,EasyBuy Latte,Coffee,Latte,EasyBuy,Value,0.5,0.59,0.18,356,Ambient,0.51,-0.8,All
+P00281,SKU000281,UrbanSelect Chocolate,Candy,Chocolate,UrbanSelect,Mid,3.6,5.11,0.42,86,Ambient,0.48,-1.6,Winter
+P00282,SKU000282,FreshPeak Ice Cream,Frozen,Ice Cream,FreshPeak,Premium,2.69,4.51,0.68,277,Refrigerated,0.12,-0.7,Summer
+P00283,SKU000283,EasyBuy Yogurt,Dairy,Yogurt,EasyBuy,Value,5.21,6.41,0.23,277,Refrigerated,0.2,-0.5,All
+P00284,SKU000284,DailyMart Ice Cream,Frozen,Ice Cream,DailyMart,Mid,2.31,3.01,0.3,310,Ambient,0.64,-0.7,Summer
+P00285,SKU000285,QuickChoice Chips,Snacks,Chips,QuickChoice,Mid,4.99,6.54,0.31,266,Refrigerated,0.4,-1.5,All
+P00286,SKU000286,EasyBuy Ice Cream,Frozen,Ice Cream,EasyBuy,Value,1.09,1.29,0.19,160,Ambient,0.34,-0.7,Summer
+P00287,SKU000287,DailyMart Hot Coffee,Coffee,Hot Coffee,DailyMart,Mid,2.39,3.19,0.33,174,Ambient,0.18,-0.8,Winter
+P00288,SKU000288,ValuePlus Soap,Household,Soap,ValuePlus,Value,7.09,8.76,0.24,303,Ambient,0.17,-0.2,All
+P00289,SKU000289,UrbanSelect Frozen Pizza,Frozen,Frozen Pizza,UrbanSelect,Mid,5.01,7.18,0.43,95,Ambient,0.95,-0.7,All
+P00290,SKU000290,EasyBuy Frozen Pizza,Frozen,Frozen Pizza,EasyBuy,Value,2.28,2.8,0.23,30,Ambient,0.81,-0.7,All
+P00291,SKU000291,QuickChoice Popcorn,Snacks,Popcorn,QuickChoice,Mid,4.05,5.86,0.45,74,Ambient,0.16,-1.5,All
+P00292,SKU000292,QuickChoice Soap,Household,Soap,QuickChoice,Mid,0.84,1.11,0.32,364,Frozen,0.4,-0.2,All
+P00293,SKU000293,NatureGold Juice,Beverages,Juice,NatureGold,Premium,3.86,6.05,0.57,179,Ambient,0.1,-1.2,All
+P00294,SKU000294,StoreBasics Water,Beverages,Water,StoreBasics,Value,3.04,3.86,0.27,194,Ambient,0.36,-1.2,All
+P00295,SKU000295,StoreBasics Tissue,Household,Tissue,StoreBasics,Value,5.13,5.99,0.17,309,Refrigerated,0.62,-0.2,All
+P00296,SKU000296,QuickChoice Milk,Dairy,Milk,QuickChoice,Mid,7.95,10.49,0.32,48,Ambient,0.45,-0.5,All
+P00297,SKU000297,StoreBasics Trail Mix,Snacks,Trail Mix,StoreBasics,Value,5.86,7.27,0.24,242,Ambient,0.75,-1.5,All
+P00298,SKU000298,ValuePlus Bagel,Bakery,Bagel,ValuePlus,Value,0.88,1.05,0.19,217,Ambient,0.88,-1.3,All
+P00299,SKU000299,DailyMart Cold Brew,Coffee,Cold Brew,DailyMart,Mid,3.92,5.31,0.36,149,Ambient,0.59,-0.8,Summer
+P00300,SKU000300,UrbanSelect Soda,Beverages,Soda,UrbanSelect,Mid,3.16,4.55,0.44,287,Ambient,0.43,-1.2,All
+P00301,SKU000301,StoreBasics Latte,Coffee,Latte,StoreBasics,Value,1.66,1.95,0.18,157,Refrigerated,0.58,-0.8,All
+P00302,SKU000302,ValuePlus Trail Mix,Snacks,Trail Mix,ValuePlus,Value,0.59,0.72,0.21,237,Ambient,0.62,-1.5,All
+P00303,SKU000303,EasyBuy Donut,Bakery,Donut,EasyBuy,Value,3.07,3.87,0.26,296,Refrigerated,0.72,-1.3,All
+P00304,SKU000304,UrbanSelect Espresso,Coffee,Espresso,UrbanSelect,Mid,4.57,6.53,0.43,32,Ambient,0.82,-0.8,All
+P00305,SKU000305,EasyBuy Nachos,Snacks,Nachos,EasyBuy,Value,6.2,7.22,0.16,77,Ambient,0.43,-1.5,All
+P00306,SKU000306,StoreBasics Soap,Household,Soap,StoreBasics,Value,4.44,5.45,0.23,158,Ambient,0.23,-0.2,All
+P00307,SKU000307,UrbanSelect Toothpaste,Personal Care,Toothpaste,UrbanSelect,Mid,0.69,0.96,0.4,128,Ambient,0.19,-0.3,All
+P00308,SKU000308,QuickChoice Bagel,Bakery,Bagel,QuickChoice,Mid,3.91,5.49,0.4,327,Ambient,0.98,-1.3,All
+P00309,SKU000309,UrbanBrew Nachos,Snacks,Nachos,UrbanBrew,Premium,0.79,1.15,0.46,236,Ambient,0.38,-1.5,All
+P00310,SKU000310,UrbanBrew Croissant,Bakery,Croissant,UrbanBrew,Premium,1.37,2.31,0.69,359,Ambient,0.5,-1.3,All
+P00311,SKU000311,DailyMart Espresso,Coffee,Espresso,DailyMart,Mid,2.66,3.84,0.44,111,Frozen,0.8,-0.8,All
+P00312,SKU000312,DailyMart Donut,Bakery,Donut,DailyMart,Mid,4.56,6.45,0.41,345,Ambient,0.37,-1.3,All
+P00313,SKU000313,UrbanBrew Popcorn,Snacks,Popcorn,UrbanBrew,Premium,5.58,8.42,0.51,141,Ambient,0.41,-1.5,All
+P00314,SKU000314,UrbanSelect Toothpaste,Personal Care,Toothpaste,UrbanSelect,Mid,6.63,8.83,0.33,275,Refrigerated,0.37,-0.3,All
+P00315,SKU000315,EasyBuy Ice Cream,Frozen,Ice Cream,EasyBuy,Value,2.01,2.43,0.21,286,Refrigerated,0.74,-0.7,Summer
+P00316,SKU000316,NatureGold Ice Cream,Frozen,Ice Cream,NatureGold,Premium,7.32,11.94,0.63,175,Ambient,0.13,-0.7,Summer
+P00317,SKU000317,DailyMart Ice Cream,Frozen,Ice Cream,DailyMart,Mid,6.46,8.67,0.34,48,Ambient,0.97,-0.7,Summer
+P00318,SKU000318,QuickChoice Nachos,Snacks,Nachos,QuickChoice,Mid,4.92,6.67,0.36,104,Ambient,0.61,-1.5,All
+P00319,SKU000319,DailyMart Milk,Dairy,Milk,DailyMart,Mid,3.22,4.54,0.41,221,Ambient,0.84,-0.5,All
+P00320,SKU000320,EasyBuy Mint,Candy,Mint,EasyBuy,Value,1.32,1.69,0.28,339,Ambient,0.37,-1.6,All
+P00321,SKU000321,UrbanSelect Toothpaste,Personal Care,Toothpaste,UrbanSelect,Mid,3.86,5.31,0.38,191,Frozen,0.12,-0.3,All
+P00322,SKU000322,NatureGold Ice Cream,Frozen,Ice Cream,NatureGold,Premium,5.69,8.44,0.48,128,Ambient,0.84,-0.7,Summer
+P00323,SKU000323,ValuePlus Soap,Household,Soap,ValuePlus,Value,7.68,8.84,0.15,21,Ambient,1.0,-0.2,All
+P00324,SKU000324,NatureGold Toothpaste,Personal Care,Toothpaste,NatureGold,Premium,6.03,10.0,0.66,3,Ambient,0.11,-0.3,All
+P00325,SKU000325,StoreBasics Toothpaste,Personal Care,Toothpaste,StoreBasics,Value,6.25,7.98,0.28,196,Ambient,0.46,-0.3,All
+P00326,SKU000326,QuickChoice Cold Brew,Coffee,Cold Brew,QuickChoice,Mid,0.68,0.92,0.35,74,Ambient,0.83,-0.8,Summer
+P00327,SKU000327,EasyBuy Hot Coffee,Coffee,Hot Coffee,EasyBuy,Value,7.02,8.79,0.25,147,Ambient,0.82,-0.8,Winter
+P00328,SKU000328,UrbanBrew Frozen Pizza,Frozen,Frozen Pizza,UrbanBrew,Premium,3.52,5.36,0.52,292,Ambient,0.82,-0.7,All
+P00329,SKU000329,QuickChoice Shampoo,Personal Care,Shampoo,QuickChoice,Mid,2.91,3.99,0.37,323,Ambient,0.3,-0.3,All
+P00330,SKU000330,DailyMart Muffin,Bakery,Muffin,DailyMart,Mid,6.2,8.23,0.33,185,Ambient,0.5,-1.3,All
+P00331,SKU000331,QuickChoice Bars,Candy,Bars,QuickChoice,Mid,2.31,3.25,0.41,55,Refrigerated,0.6,-1.6,All
+P00332,SKU000332,ValuePlus Chocolate,Candy,Chocolate,ValuePlus,Value,3.51,4.12,0.17,292,Ambient,0.67,-1.6,Winter
+P00333,SKU000333,DailyMart Soap,Household,Soap,DailyMart,Mid,0.5,0.69,0.38,156,Refrigerated,0.63,-0.2,All
+P00334,SKU000334,DailyMart Juice,Beverages,Juice,DailyMart,Mid,3.05,4.4,0.44,322,Ambient,0.19,-1.2,All
+P00335,SKU000335,UrbanSelect Juice,Beverages,Juice,UrbanSelect,Mid,7.0,9.7,0.39,340,Refrigerated,0.49,-1.2,All
+P00336,SKU000336,UrbanSelect Water,Beverages,Water,UrbanSelect,Mid,1.17,1.64,0.4,220,Ambient,0.94,-1.2,All
+P00337,SKU000337,UrbanSelect Soap,Household,Soap,UrbanSelect,Mid,1.75,2.46,0.41,15,Ambient,0.35,-0.2,All
+P00338,SKU000338,ValuePlus Energy Drink,Beverages,Energy Drink,ValuePlus,Value,2.52,3.08,0.22,213,Ambient,0.14,-1.2,All
+P00339,SKU000339,StoreBasics Croissant,Bakery,Croissant,StoreBasics,Value,4.07,4.75,0.17,258,Ambient,0.43,-1.3,All
+P00340,SKU000340,FreshPeak Milk,Dairy,Milk,FreshPeak,Premium,6.67,11.09,0.66,18,Ambient,0.88,-0.5,All
+P00341,SKU000341,DailyMart Frozen Pizza,Frozen,Frozen Pizza,DailyMart,Mid,6.16,8.04,0.31,218,Frozen,0.21,-0.7,All
+P00342,SKU000342,StoreBasics Trail Mix,Snacks,Trail Mix,StoreBasics,Value,5.62,6.86,0.22,67,Refrigerated,0.36,-1.5,All
+P00343,SKU000343,UrbanBrew Chips,Snacks,Chips,UrbanBrew,Premium,6.37,10.1,0.59,305,Refrigerated,0.11,-1.5,All
+P00344,SKU000344,QuickChoice Croissant,Bakery,Croissant,QuickChoice,Mid,5.82,8.39,0.44,165,Ambient,0.46,-1.3,All
+P00345,SKU000345,DailyMart Energy Drink,Beverages,Energy Drink,DailyMart,Mid,3.98,5.75,0.44,190,Ambient,0.79,-1.2,All
+P00346,SKU000346,DailyMart Yogurt,Dairy,Yogurt,DailyMart,Mid,4.41,6.38,0.45,285,Ambient,0.17,-0.5,All
+P00347,SKU000347,NatureGold Soap,Household,Soap,NatureGold,Premium,0.63,0.96,0.52,35,Refrigerated,0.3,-0.2,All
+P00348,SKU000348,UrbanSelect Soap,Household,Soap,UrbanSelect,Mid,5.47,7.56,0.38,230,Refrigerated,0.12,-0.2,All
+P00349,SKU000349,DailyMart Toothpaste,Personal Care,Toothpaste,DailyMart,Mid,3.49,4.7,0.35,197,Refrigerated,0.94,-0.3,All
+P00350,SKU000350,UrbanSelect Espresso,Coffee,Espresso,UrbanSelect,Mid,5.54,7.69,0.39,106,Frozen,0.81,-0.8,All
+P00351,SKU000351,QuickChoice Gummies,Candy,Gummies,QuickChoice,Mid,3.24,4.32,0.33,201,Ambient,0.66,-1.6,All
+P00352,SKU000352,EasyBuy Nachos,Snacks,Nachos,EasyBuy,Value,1.73,2.16,0.25,323,Ambient,0.93,-1.5,All
+P00353,SKU000353,UrbanSelect Shampoo,Personal Care,Shampoo,UrbanSelect,Mid,0.95,1.33,0.4,284,Ambient,0.11,-0.3,All
+P00354,SKU000354,QuickChoice Chocolate,Candy,Chocolate,QuickChoice,Mid,3.62,4.87,0.35,228,Ambient,0.55,-1.6,Winter
+P00355,SKU000355,UrbanBrew Croissant,Bakery,Croissant,UrbanBrew,Premium,7.46,12.24,0.64,80,Ambient,0.49,-1.3,All
+P00356,SKU000356,StoreBasics Popcorn,Snacks,Popcorn,StoreBasics,Value,0.87,1.11,0.28,242,Frozen,0.57,-1.5,All
+P00357,SKU000357,NatureGold Ice Cream,Frozen,Ice Cream,NatureGold,Premium,4.24,6.58,0.55,189,Frozen,0.61,-0.7,Summer
+P00358,SKU000358,EasyBuy Donut,Bakery,Donut,EasyBuy,Value,1.05,1.31,0.24,156,Ambient,0.85,-1.3,All
+P00359,SKU000359,StoreBasics Hot Coffee,Coffee,Hot Coffee,StoreBasics,Value,7.65,9.91,0.3,10,Ambient,0.53,-0.8,Winter
+P00360,SKU000360,UrbanSelect Mint,Candy,Mint,UrbanSelect,Mid,5.5,7.28,0.32,90,Refrigerated,0.87,-1.6,All
+P00361,SKU000361,FreshPeak Tissue,Household,Tissue,FreshPeak,Premium,3.33,5.29,0.59,257,Ambient,0.3,-0.2,All
+P00362,SKU000362,UrbanSelect Shampoo,Personal Care,Shampoo,UrbanSelect,Mid,2.4,3.21,0.34,351,Ambient,0.7,-0.3,All
+P00363,SKU000363,NatureGold Chocolate,Candy,Chocolate,NatureGold,Premium,7.4,12.57,0.7,162,Ambient,0.53,-1.6,Winter
+P00364,SKU000364,UrbanBrew Trail Mix,Snacks,Trail Mix,UrbanBrew,Premium,7.39,12.47,0.69,93,Ambient,0.66,-1.5,All
+P00365,SKU000365,UrbanSelect Chocolate,Candy,Chocolate,UrbanSelect,Mid,3.62,5.17,0.43,259,Ambient,0.93,-1.6,Winter
+P00366,SKU000366,UrbanSelect Mint,Candy,Mint,UrbanSelect,Mid,6.14,8.19,0.33,195,Ambient,0.88,-1.6,All
+P00367,SKU000367,UrbanSelect Tissue,Household,Tissue,UrbanSelect,Mid,4.72,6.44,0.36,78,Refrigerated,0.35,-0.2,All
+P00368,SKU000368,ValuePlus Milk,Dairy,Milk,ValuePlus,Value,7.19,8.72,0.21,134,Refrigerated,0.9,-0.5,All
+P00369,SKU000369,DailyMart Espresso,Coffee,Espresso,DailyMart,Mid,2.72,3.78,0.39,48,Ambient,0.16,-0.8,All
+P00370,SKU000370,StoreBasics Gummies,Candy,Gummies,StoreBasics,Value,3.95,4.6,0.16,285,Refrigerated,0.4,-1.6,All
+P00371,SKU000371,ValuePlus Hot Coffee,Coffee,Hot Coffee,ValuePlus,Value,6.69,8.21,0.23,183,Ambient,0.48,-0.8,Winter
+P00372,SKU000372,UrbanBrew Muffin,Bakery,Muffin,UrbanBrew,Premium,4.49,7.17,0.6,190,Ambient,0.15,-1.3,All
+P00373,SKU000373,DailyMart Toothpaste,Personal Care,Toothpaste,DailyMart,Mid,2.78,3.71,0.33,181,Ambient,0.27,-0.3,All
+P00374,SKU000374,UrbanSelect Ice Cream,Frozen,Ice Cream,UrbanSelect,Mid,3.62,5.12,0.41,316,Ambient,0.39,-0.7,Summer
+P00375,SKU000375,ValuePlus Soap,Household,Soap,ValuePlus,Value,1.44,1.73,0.2,49,Refrigerated,0.99,-0.2,All
+P00376,SKU000376,DailyMart Shampoo,Personal Care,Shampoo,DailyMart,Mid,1.62,2.2,0.36,289,Refrigerated,0.12,-0.3,All
+P00377,SKU000377,DailyMart Latte,Coffee,Latte,DailyMart,Mid,7.64,9.98,0.31,275,Ambient,0.37,-0.8,All
+P00378,SKU000378,ValuePlus Tissue,Household,Tissue,ValuePlus,Value,6.36,7.99,0.26,53,Ambient,0.94,-0.2,All
+P00379,SKU000379,UrbanSelect Shampoo,Personal Care,Shampoo,UrbanSelect,Mid,3.96,5.7,0.44,169,Refrigerated,0.41,-0.3,All
+P00380,SKU000380,FreshPeak Latte,Coffee,Latte,FreshPeak,Premium,3.09,4.74,0.53,310,Ambient,0.21,-0.8,All
+P00381,SKU000381,DailyMart Energy Drink,Beverages,Energy Drink,DailyMart,Mid,7.6,10.45,0.37,273,Ambient,0.45,-1.2,All
+P00382,SKU000382,NatureGold Gummies,Candy,Gummies,NatureGold,Premium,6.79,9.86,0.45,316,Ambient,0.86,-1.6,All
+P00383,SKU000383,DailyMart Yogurt,Dairy,Yogurt,DailyMart,Mid,6.63,9.16,0.38,170,Ambient,0.55,-0.5,All
+P00384,SKU000384,UrbanBrew Frozen Pizza,Frozen,Frozen Pizza,UrbanBrew,Premium,4.65,7.2,0.55,45,Refrigerated,0.24,-0.7,All
+P00385,SKU000385,QuickChoice Bars,Candy,Bars,QuickChoice,Mid,5.55,7.88,0.42,9,Ambient,0.94,-1.6,All
+P00386,SKU000386,EasyBuy Espresso,Coffee,Espresso,EasyBuy,Value,0.59,0.74,0.25,126,Ambient,0.12,-0.8,All
+P00387,SKU000387,FreshPeak Muffin,Bakery,Muffin,FreshPeak,Premium,7.51,11.7,0.56,336,Ambient,0.32,-1.3,All
+P00388,SKU000388,FreshPeak Water,Beverages,Water,FreshPeak,Premium,5.64,8.65,0.53,49,Ambient,0.98,-1.2,All
+P00389,SKU000389,EasyBuy Gummies,Candy,Gummies,EasyBuy,Value,1.99,2.41,0.21,312,Ambient,0.99,-1.6,All
+P00390,SKU000390,StoreBasics Shampoo,Personal Care,Shampoo,StoreBasics,Value,7.85,9.11,0.16,159,Frozen,0.19,-0.3,All
+P00391,SKU000391,DailyMart Bagel,Bakery,Bagel,DailyMart,Mid,1.92,2.66,0.39,221,Ambient,0.17,-1.3,All
+P00392,SKU000392,UrbanSelect Popcorn,Snacks,Popcorn,UrbanSelect,Mid,2.51,3.37,0.34,76,Ambient,0.23,-1.5,All
+P00393,SKU000393,NatureGold Milk,Dairy,Milk,NatureGold,Premium,7.64,11.65,0.52,150,Ambient,0.66,-0.5,All
+P00394,SKU000394,QuickChoice Cold Brew,Coffee,Cold Brew,QuickChoice,Mid,7.74,10.35,0.34,268,Ambient,0.7,-0.8,Summer
+P00395,SKU000395,UrbanSelect Ice Cream,Frozen,Ice Cream,UrbanSelect,Mid,4.98,7.12,0.43,67,Ambient,0.5,-0.7,Summer
+P00396,SKU000396,UrbanSelect Muffin,Bakery,Muffin,UrbanSelect,Mid,7.12,9.47,0.33,280,Ambient,0.44,-1.3,All
+P00397,SKU000397,UrbanSelect Soda,Beverages,Soda,UrbanSelect,Mid,2.4,3.28,0.37,140,Ambient,0.86,-1.2,All
+P00398,SKU000398,QuickChoice Frozen Pizza,Frozen,Frozen Pizza,QuickChoice,Mid,0.56,0.76,0.37,246,Refrigerated,0.92,-0.7,All
+P00399,SKU000399,UrbanSelect Chocolate,Candy,Chocolate,UrbanSelect,Mid,0.57,0.79,0.39,275,Ambient,0.7,-1.6,Winter
+P00400,SKU000400,UrbanSelect Espresso,Coffee,Espresso,UrbanSelect,Mid,1.99,2.85,0.43,49,Ambient,0.42,-0.8,All
+P00401,SKU000401,UrbanSelect Muffin,Bakery,Muffin,UrbanSelect,Mid,3.94,5.56,0.41,316,Ambient,0.64,-1.3,All
+P00402,SKU000402,EasyBuy Yogurt,Dairy,Yogurt,EasyBuy,Value,6.67,8.6,0.29,79,Refrigerated,0.46,-0.5,All
+P00403,SKU000403,UrbanSelect Ice Cream,Frozen,Ice Cream,UrbanSelect,Mid,4.41,5.78,0.31,211,Frozen,0.63,-0.7,Summer
+P00404,SKU000404,DailyMart Tissue,Household,Tissue,DailyMart,Mid,7.22,10.11,0.4,58,Refrigerated,0.47,-0.2,All
+P00405,SKU000405,QuickChoice Frozen Pizza,Frozen,Frozen Pizza,QuickChoice,Mid,5.37,7.74,0.44,94,Ambient,0.55,-0.7,All
+P00406,SKU000406,UrbanSelect Tissue,Household,Tissue,UrbanSelect,Mid,0.92,1.26,0.37,326,Ambient,0.35,-0.2,All
+P00407,SKU000407,FreshPeak Popcorn,Snacks,Popcorn,FreshPeak,Premium,2.45,3.65,0.49,135,Refrigerated,0.95,-1.5,All
+P00408,SKU000408,EasyBuy Latte,Coffee,Latte,EasyBuy,Value,5.64,6.58,0.17,71,Ambient,0.93,-0.8,All
+P00409,SKU000409,DailyMart Shampoo,Personal Care,Shampoo,DailyMart,Mid,6.07,7.96,0.31,346,Refrigerated,0.38,-0.3,All
+P00410,SKU000410,ValuePlus Yogurt,Dairy,Yogurt,ValuePlus,Value,3.16,3.87,0.23,297,Ambient,0.39,-0.5,All
+P00411,SKU000411,UrbanSelect Soap,Household,Soap,UrbanSelect,Mid,3.12,4.3,0.38,263,Ambient,0.85,-0.2,All
+P00412,SKU000412,StoreBasics Yogurt,Dairy,Yogurt,StoreBasics,Value,0.6,0.72,0.19,241,Ambient,0.26,-0.5,All
+P00413,SKU000413,DailyMart Mint,Candy,Mint,DailyMart,Mid,1.74,2.26,0.3,136,Refrigerated,0.37,-1.6,All
+P00414,SKU000414,QuickChoice Ice Cream,Frozen,Ice Cream,QuickChoice,Mid,1.74,2.49,0.43,124,Ambient,0.19,-0.7,Summer
+P00415,SKU000415,UrbanSelect Gummies,Candy,Gummies,UrbanSelect,Mid,2.34,3.06,0.31,248,Ambient,0.4,-1.6,All
+P00416,SKU000416,StoreBasics Shampoo,Personal Care,Shampoo,StoreBasics,Value,3.62,4.4,0.21,21,Ambient,0.47,-0.3,All
+P00417,SKU000417,UrbanSelect Soda,Beverages,Soda,UrbanSelect,Mid,4.6,6.38,0.39,95,Ambient,0.2,-1.2,All
+P00418,SKU000418,FreshPeak Soda,Beverages,Soda,FreshPeak,Premium,3.79,6.42,0.7,19,Ambient,0.45,-1.2,All
+P00419,SKU000419,DailyMart Juice,Beverages,Juice,DailyMart,Mid,7.64,10.82,0.42,64,Refrigerated,0.16,-1.2,All
+P00420,SKU000420,EasyBuy Nachos,Snacks,Nachos,EasyBuy,Value,5.66,6.72,0.19,27,Refrigerated,0.73,-1.5,All
+P00421,SKU000421,QuickChoice Toothpaste,Personal Care,Toothpaste,QuickChoice,Mid,6.82,9.36,0.37,120,Refrigerated,0.51,-0.3,All
+P00422,SKU000422,StoreBasics Nachos,Snacks,Nachos,StoreBasics,Value,4.13,4.76,0.15,32,Ambient,0.11,-1.5,All
+P00423,SKU000423,UrbanBrew Espresso,Coffee,Espresso,UrbanBrew,Premium,3.42,5.42,0.59,294,Refrigerated,0.59,-0.8,All
+P00424,SKU000424,DailyMart Soda,Beverages,Soda,DailyMart,Mid,6.53,8.91,0.37,223,Ambient,0.39,-1.2,All
+P00425,SKU000425,UrbanSelect Nachos,Snacks,Nachos,UrbanSelect,Mid,5.8,7.87,0.36,62,Refrigerated,0.69,-1.5,All
+P00426,SKU000426,StoreBasics Cold Brew,Coffee,Cold Brew,StoreBasics,Value,0.54,0.69,0.27,319,Ambient,0.14,-0.8,Summer
+P00427,SKU000427,QuickChoice Bars,Candy,Bars,QuickChoice,Mid,6.36,8.99,0.41,297,Ambient,0.78,-1.6,All
+P00428,SKU000428,DailyMart Chips,Snacks,Chips,DailyMart,Mid,3.4,4.76,0.4,222,Ambient,0.24,-1.5,All
+P00429,SKU000429,QuickChoice Milk,Dairy,Milk,QuickChoice,Mid,7.17,9.94,0.39,64,Ambient,0.53,-0.5,All
+P00430,SKU000430,UrbanSelect Frozen Pizza,Frozen,Frozen Pizza,UrbanSelect,Mid,1.89,2.63,0.39,96,Refrigerated,0.75,-0.7,All
+P00431,SKU000431,UrbanSelect Water,Beverages,Water,UrbanSelect,Mid,6.66,9.32,0.4,226,Ambient,0.59,-1.2,All
+P00432,SKU000432,UrbanSelect Tissue,Household,Tissue,UrbanSelect,Mid,5.27,7.11,0.35,175,Refrigerated,0.52,-0.2,All
+P00433,SKU000433,UrbanSelect Mint,Candy,Mint,UrbanSelect,Mid,6.33,9.01,0.42,281,Frozen,0.81,-1.6,All
+P00434,SKU000434,DailyMart Bagel,Bakery,Bagel,DailyMart,Mid,3.98,5.33,0.34,98,Ambient,0.6,-1.3,All
+P00435,SKU000435,QuickChoice Shampoo,Personal Care,Shampoo,QuickChoice,Mid,3.72,4.95,0.33,234,Refrigerated,0.49,-0.3,All
+P00436,SKU000436,EasyBuy Frozen Pizza,Frozen,Frozen Pizza,EasyBuy,Value,6.6,8.29,0.26,40,Ambient,1.0,-0.7,All
+P00437,SKU000437,UrbanSelect Chips,Snacks,Chips,UrbanSelect,Mid,0.8,1.09,0.36,293,Ambient,0.42,-1.5,All
+P00438,SKU000438,UrbanSelect Popcorn,Snacks,Popcorn,UrbanSelect,Mid,1.1,1.48,0.35,88,Ambient,0.79,-1.5,All
+P00439,SKU000439,EasyBuy Hot Coffee,Coffee,Hot Coffee,EasyBuy,Value,6.78,8.43,0.24,357,Frozen,0.47,-0.8,Winter
+P00440,SKU000440,FreshPeak Chips,Snacks,Chips,FreshPeak,Premium,6.18,9.64,0.56,76,Ambient,0.62,-1.5,All
+P00441,SKU000441,ValuePlus Nachos,Snacks,Nachos,ValuePlus,Value,3.29,4.09,0.24,193,Ambient,1.0,-1.5,All
+P00442,SKU000442,ValuePlus Espresso,Coffee,Espresso,ValuePlus,Value,5.86,7.26,0.24,205,Frozen,0.85,-0.8,All
+P00443,SKU000443,UrbanSelect Yogurt,Dairy,Yogurt,UrbanSelect,Mid,7.44,10.38,0.39,345,Ambient,0.73,-0.5,All
+P00444,SKU000444,UrbanSelect Soap,Household,Soap,UrbanSelect,Mid,6.11,8.69,0.42,195,Ambient,0.73,-0.2,All
+P00445,SKU000445,DailyMart Frozen Pizza,Frozen,Frozen Pizza,DailyMart,Mid,7.62,9.98,0.31,114,Ambient,0.25,-0.7,All
+P00446,SKU000446,QuickChoice Shampoo,Personal Care,Shampoo,QuickChoice,Mid,4.52,6.21,0.37,96,Refrigerated,0.63,-0.3,All
+P00447,SKU000447,QuickChoice Water,Beverages,Water,QuickChoice,Mid,4.87,6.76,0.39,301,Ambient,0.13,-1.2,All
+P00448,SKU000448,NatureGold Shampoo,Personal Care,Shampoo,NatureGold,Premium,7.12,11.5,0.61,9,Ambient,0.98,-0.3,All
+P00449,SKU000449,UrbanSelect Shampoo,Personal Care,Shampoo,UrbanSelect,Mid,2.65,3.76,0.42,181,Ambient,0.91,-0.3,All
+P00450,SKU000450,UrbanSelect Milk,Dairy,Milk,UrbanSelect,Mid,6.32,8.34,0.32,233,Ambient,0.46,-0.5,All
+P00451,SKU000451,StoreBasics Energy Drink,Beverages,Energy Drink,StoreBasics,Value,1.14,1.38,0.21,73,Ambient,0.31,-1.2,All
+P00452,SKU000452,QuickChoice Gummies,Candy,Gummies,QuickChoice,Mid,1.06,1.45,0.37,86,Frozen,0.78,-1.6,All
+P00453,SKU000453,UrbanSelect Shampoo,Personal Care,Shampoo,UrbanSelect,Mid,6.49,8.75,0.35,95,Ambient,0.22,-0.3,All
+P00454,SKU000454,DailyMart Yogurt,Dairy,Yogurt,DailyMart,Mid,2.77,4.01,0.45,284,Refrigerated,0.23,-0.5,All
+P00455,SKU000455,EasyBuy Ice Cream,Frozen,Ice Cream,EasyBuy,Value,1.24,1.58,0.27,13,Ambient,0.82,-0.7,Summer
+P00456,SKU000456,QuickChoice Bagel,Bakery,Bagel,QuickChoice,Mid,2.84,3.69,0.3,318,Ambient,0.17,-1.3,All
+P00457,SKU000457,DailyMart Milk,Dairy,Milk,DailyMart,Mid,5.86,7.87,0.34,228,Ambient,0.75,-0.5,All
+P00458,SKU000458,StoreBasics Latte,Coffee,Latte,StoreBasics,Value,6.97,8.34,0.2,321,Ambient,0.61,-0.8,All
+P00459,SKU000459,UrbanSelect Soap,Household,Soap,UrbanSelect,Mid,4.42,6.06,0.37,203,Ambient,0.53,-0.2,All
+P00460,SKU000460,UrbanSelect Trail Mix,Snacks,Trail Mix,UrbanSelect,Mid,6.5,8.57,0.32,297,Ambient,0.79,-1.5,All
+P00461,SKU000461,StoreBasics Toothpaste,Personal Care,Toothpaste,StoreBasics,Value,1.82,2.25,0.24,190,Ambient,0.68,-0.3,All
+P00462,SKU000462,DailyMart Bars,Candy,Bars,DailyMart,Mid,6.06,8.13,0.34,193,Ambient,0.27,-1.6,All
+P00463,SKU000463,QuickChoice Trail Mix,Snacks,Trail Mix,QuickChoice,Mid,6.69,8.98,0.34,202,Ambient,0.43,-1.5,All
+P00464,SKU000464,QuickChoice Frozen Pizza,Frozen,Frozen Pizza,QuickChoice,Mid,3.26,4.28,0.31,179,Refrigerated,0.62,-0.7,All
+P00465,SKU000465,EasyBuy Croissant,Bakery,Croissant,EasyBuy,Value,2.15,2.54,0.18,252,Ambient,0.63,-1.3,All
+P00466,SKU000466,QuickChoice Chocolate,Candy,Chocolate,QuickChoice,Mid,6.44,8.98,0.39,207,Ambient,0.34,-1.6,Winter
+P00467,SKU000467,UrbanBrew Juice,Beverages,Juice,UrbanBrew,Premium,2.28,3.85,0.69,281,Ambient,0.29,-1.2,All
+P00468,SKU000468,DailyMart Milk,Dairy,Milk,DailyMart,Mid,5.77,8.03,0.39,248,Ambient,0.64,-0.5,All
+P00469,SKU000469,StoreBasics Milk,Dairy,Milk,StoreBasics,Value,5.81,7.1,0.22,173,Ambient,0.28,-0.5,All
+P00470,SKU000470,UrbanSelect Milk,Dairy,Milk,UrbanSelect,Mid,7.33,10.09,0.38,55,Ambient,0.13,-0.5,All
+P00471,SKU000471,QuickChoice Soda,Beverages,Soda,QuickChoice,Mid,7.97,11.31,0.42,333,Ambient,0.31,-1.2,All
+P00472,SKU000472,FreshPeak Soda,Beverages,Soda,FreshPeak,Premium,1.92,3.23,0.68,270,Ambient,0.82,-1.2,All
+P00473,SKU000473,UrbanSelect Nachos,Snacks,Nachos,UrbanSelect,Mid,6.3,8.41,0.34,223,Refrigerated,0.85,-1.5,All
+P00474,SKU000474,QuickChoice Shampoo,Personal Care,Shampoo,QuickChoice,Mid,0.64,0.91,0.42,312,Ambient,0.35,-0.3,All
+P00475,SKU000475,DailyMart Nachos,Snacks,Nachos,DailyMart,Mid,7.71,10.8,0.4,341,Ambient,0.64,-1.5,All
+P00476,SKU000476,UrbanBrew Ice Cream,Frozen,Ice Cream,UrbanBrew,Premium,5.15,8.24,0.6,246,Refrigerated,0.35,-0.7,Summer
+P00477,SKU000477,QuickChoice Gummies,Candy,Gummies,QuickChoice,Mid,5.87,8.25,0.41,249,Ambient,0.82,-1.6,All
+P00478,SKU000478,NatureGold Popcorn,Snacks,Popcorn,NatureGold,Premium,6.87,10.11,0.47,306,Refrigerated,0.94,-1.5,All
+P00479,SKU000479,QuickChoice Shampoo,Personal Care,Shampoo,QuickChoice,Mid,0.96,1.26,0.31,186,Ambient,0.24,-0.3,All
+P00480,SKU000480,QuickChoice Tissue,Household,Tissue,QuickChoice,Mid,0.54,0.71,0.31,75,Refrigerated,0.78,-0.2,All
+P00481,SKU000481,UrbanSelect Nachos,Snacks,Nachos,UrbanSelect,Mid,6.18,8.09,0.31,273,Ambient,0.88,-1.5,All
+P00482,SKU000482,EasyBuy Latte,Coffee,Latte,EasyBuy,Value,2.71,3.24,0.19,131,Ambient,0.76,-0.8,All
+P00483,SKU000483,DailyMart Popcorn,Snacks,Popcorn,DailyMart,Mid,6.67,8.84,0.33,296,Ambient,0.95,-1.5,All
+P00484,SKU000484,DailyMart Mint,Candy,Mint,DailyMart,Mid,4.88,6.63,0.36,72,Frozen,0.41,-1.6,All
+P00485,SKU000485,DailyMart Yogurt,Dairy,Yogurt,DailyMart,Mid,6.66,9.22,0.38,153,Ambient,0.47,-0.5,All
+P00486,SKU000486,NatureGold Soap,Household,Soap,NatureGold,Premium,2.4,3.95,0.64,239,Ambient,0.43,-0.2,All
+P00487,SKU000487,UrbanSelect Ice Cream,Frozen,Ice Cream,UrbanSelect,Mid,4.96,7.0,0.41,190,Ambient,0.88,-0.7,Summer
+P00488,SKU000488,EasyBuy Yogurt,Dairy,Yogurt,EasyBuy,Value,4.71,5.59,0.19,222,Frozen,0.33,-0.5,All
+P00489,SKU000489,UrbanSelect Bagel,Bakery,Bagel,UrbanSelect,Mid,1.37,1.79,0.3,280,Ambient,0.65,-1.3,All
+P00490,SKU000490,QuickChoice Soda,Beverages,Soda,QuickChoice,Mid,7.23,10.21,0.41,24,Ambient,0.42,-1.2,All
+P00491,SKU000491,StoreBasics Shampoo,Personal Care,Shampoo,StoreBasics,Value,4.68,5.49,0.17,168,Ambient,0.53,-0.3,All
+P00492,SKU000492,UrbanSelect Ice Cream,Frozen,Ice Cream,UrbanSelect,Mid,1.55,2.15,0.39,285,Refrigerated,0.35,-0.7,Summer
+P00493,SKU000493,FreshPeak Toothpaste,Personal Care,Toothpaste,FreshPeak,Premium,7.5,12.16,0.62,219,Ambient,0.94,-0.3,All
+P00494,SKU000494,UrbanBrew Gummies,Candy,Gummies,UrbanBrew,Premium,7.78,12.37,0.59,16,Refrigerated,0.3,-1.6,All
+P00495,SKU000495,UrbanSelect Milk,Dairy,Milk,UrbanSelect,Mid,0.83,1.17,0.4,102,Ambient,0.95,-0.5,All
+P00496,SKU000496,DailyMart Shampoo,Personal Care,Shampoo,DailyMart,Mid,7.24,10.46,0.44,357,Ambient,0.47,-0.3,All
+P00497,SKU000497,QuickChoice Bagel,Bakery,Bagel,QuickChoice,Mid,1.86,2.46,0.32,222,Frozen,0.24,-1.3,All
+P00498,SKU000498,NatureGold Latte,Coffee,Latte,NatureGold,Premium,5.99,10.12,0.69,47,Refrigerated,0.15,-0.8,All
+P00499,SKU000499,DailyMart Nachos,Snacks,Nachos,DailyMart,Mid,2.64,3.47,0.31,232,Ambient,0.71,-1.5,All
