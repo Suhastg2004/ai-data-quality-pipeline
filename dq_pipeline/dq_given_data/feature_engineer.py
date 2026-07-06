@@ -227,6 +227,37 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     df["payment_type_encoded"] = le_payment.fit_transform(df["payment_type"].fillna("Unknown"))
     df["region_encoded"]      = le_region.fit_transform(df["region"].fillna("Unknown"))
 
+    # ── Group 7: Inventory Features ───────────────────────────────────────────
+    # These catch contradictions between order data and inventory records.
+    # No other table can catch these — inventory is the only source of truth
+    # for what physically existed in the store on a given day.
+
+    # Stock math error from inventory reconciliation
+    # If inventory says stock_math_error > 0, inventory records are corrupt
+    # That same store/product/day having an order is doubly suspicious
+    df["inv_stock_math_error"] = df["stock_math_error"].fillna(0)
+
+    # Order quantity vs what inventory says was sold
+    # If order qty=50 but inventory sold_qty=2 — they contradict each other
+    df["qty_vs_inv_sold"] = (
+        (df["quantity"] - df[config.INV_SOLD_QTY]).abs()
+    ).fillna(0)
+
+    # Did the order quantity exceed available stock?
+    # available = begin_stock + received_qty
+    # If order qty > available → physically impossible to fulfil
+    df["order_exceeds_stock"] = (
+        (df["quantity"] > df["stock_available"])
+        & (df["stock_available"] > 0)  # only flag when we have inventory data
+    ).astype(int)
+
+    # Stock availability ratio — how much of available stock did this order use?
+    # A single order consuming 80%+ of daily stock is unusual
+    df["stock_consumption_ratio"] = (
+        df["quantity"] / (df["stock_available"] + 1e-9)
+    ).clip(upper=10).round(4)
+    # clip at 10 to prevent extreme values when stock_available is tiny
+    
     return df
 
 
@@ -279,6 +310,12 @@ def get_feature_columns() -> list:
         "rainfall",
         "humidity",
 
+        # Inventory features
+        "inv_stock_math_error",
+        "qty_vs_inv_sold",
+        "order_exceeds_stock",
+        "stock_consumption_ratio",
+        
         # Product context
         "seasonal_mismatch",
         "is_refrigerated",

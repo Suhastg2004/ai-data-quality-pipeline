@@ -50,6 +50,7 @@ DATA_DIR = "datasets"
 
 PATH_ORDERS            = f"{DATA_DIR}/orders.csv"
 PATH_ORDERS_ANOMALIES  = f"{DATA_DIR}/orders_with_anomalies.csv"
+PATH_INVENTORY         = f"{DATA_DIR}/inventory.csv"
 PATH_PRODUCTS          = f"{DATA_DIR}/products.csv"
 PATH_STORES            = f"{DATA_DIR}/stores.csv"
 PATH_PROMOTIONS        = f"{DATA_DIR}/promotions.csv"
@@ -73,6 +74,15 @@ O_DISCOUNT       = "discount"
 # Ground truth columns (only in orders_with_anomalies)
 O_ANOMALY_FLAG   = "anomaly_flag"
 O_ANOMALY_TYPE   = "anomaly_type"
+
+# Column names: inventory
+INV_DATE_OFFSET  = "date_offset"
+INV_STORE_ID     = "store_id"
+INV_PRODUCT_ID   = "product_id"
+INV_BEGIN_STOCK  = "begin_stock"
+INV_RECEIVED_QTY = "received_qty"
+INV_SOLD_QTY     = "sold_qty"
+INV_END_STOCK    = "end_stock"
 
 # Column names: products 
 P_PRODUCT_ID     = "product_id"

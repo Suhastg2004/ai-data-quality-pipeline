@@ -1,0 +1,75 @@
+{
+  "model": "Random Forest",
+  "precision": 1.0,
+  "recall": 0.915,
+  "f1": 0.9556,
+  "tp": 1249,
+  "fp": 0,
+  "fn": 116,
+  "tn": 99403,
+  "per_type": [
+    {
+      "anomaly_type": "negative_unit_price",
+      "total": 145,
+      "caught": 145,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "anomaly_type": "quantity_outlier",
+      "total": 255,
+      "caught": 255,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "anomaly_type": "sales_math_error",
+      "total": 266,
+      "caught": 266,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "anomaly_type": "unknown",
+      "total": 164,
+      "caught": 164,
+      "missed": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "anomaly_type": "unauthorized_discount",
+      "total": 214,
+      "caught": 212,
+      "missed": 2,
+      "precision": 1.0,
+      "recall": 0.991,
+      "f1": 0.995
+    },
+    {
+      "anomaly_type": "zero_quantity",
+      "total": 192,
+      "caught": 188,
+      "missed": 4,
+      "precision": 1.0,
+      "recall": 0.979,
+      "f1": 0.989
+    },
+    {
+      "anomaly_type": "wrong_price",
+      "total": 129,
+      "caught": 19,
+      "missed": 110,
+      "precision": 1.0,
+      "recall": 0.147,
+      "f1": 0.257
+    }
+  ]
+}

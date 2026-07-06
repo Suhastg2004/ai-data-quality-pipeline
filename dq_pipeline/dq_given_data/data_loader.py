@@ -35,13 +35,14 @@ def load_raw_tables() -> dict:
     print("  Loading raw CSV files...")
 
     tables = {
-        "orders":           pd.read_csv(config.PATH_ORDERS),
-        "orders_anomalies": pd.read_csv(config.PATH_ORDERS_ANOMALIES),
-        "products":         pd.read_csv(config.PATH_PRODUCTS),
-        "stores":           pd.read_csv(config.PATH_STORES),
-        "promotions":       pd.read_csv(config.PATH_PROMOTIONS),
-        "weather":          pd.read_csv(config.PATH_WEATHER),
-        "holidays":         pd.read_csv(config.PATH_HOLIDAYS),
+    "orders":           pd.read_csv(config.PATH_ORDERS),
+    "orders_anomalies": pd.read_csv(config.PATH_ORDERS_ANOMALIES),
+    "products":         pd.read_csv(config.PATH_PRODUCTS),
+    "stores":           pd.read_csv(config.PATH_STORES),
+    "promotions":       pd.read_csv(config.PATH_PROMOTIONS),
+    "weather":          pd.read_csv(config.PATH_WEATHER),
+    "holidays":         pd.read_csv(config.PATH_HOLIDAYS),
+    "inventory":        pd.read_csv(config.PATH_INVENTORY),  # ADD THIS
     }
 
     # Print row counts so you can see what was loaded
@@ -166,6 +167,52 @@ def build_promotion_lookup(promotions_df: pd.DataFrame) -> pd.DataFrame:
     print(f"  Promotion lookup built: {len(promo_lookup):,} product-day combinations")
     return promo_lookup
 
+def build_inventory_lookup(inventory_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Converts inventory from offset-based dates to actual calendar dates.
+
+    inventory.date_offset works the same as promotions.start_offset —
+    it's the number of days since PROMO_REFERENCE_DATE (2024-01-01).
+
+    After conversion, we compute two pre-calculated columns:
+        stock_available : begin_stock + received_qty (total available that day)
+        stock_math_ok   : 1 if end_stock = begin + received - sold, else 0
+
+    Returns one row per (store_id, product_id, date) — joinable to orders.
+    """
+    import datetime
+    ref = config.PROMO_REFERENCE_DATE
+    inv = inventory_df.copy()
+
+    # Convert offset to actual date
+    inv["date"] = inv[config.INV_DATE_OFFSET].apply(
+        lambda x: pd.Timestamp(ref + datetime.timedelta(days=int(x)))
+    )
+
+    # Pre-compute stock health columns
+    inv["stock_available"] = (
+        inv[config.INV_BEGIN_STOCK] + inv[config.INV_RECEIVED_QTY]
+    )
+
+    inv["stock_math_error"] = (
+        inv[config.INV_END_STOCK]
+        - (inv[config.INV_BEGIN_STOCK]
+           + inv[config.INV_RECEIVED_QTY]
+           - inv[config.INV_SOLD_QTY])
+    ).abs()
+
+    # Keep only columns needed for the join
+    result = inv[[
+        "store_id", "product_id", "date",
+        "stock_available",
+        "stock_math_error",
+        config.INV_BEGIN_STOCK,
+        config.INV_SOLD_QTY,
+    ]].copy()
+
+    print(f"  Inventory lookup built: {len(result):,} store-product-day combinations")
+    return result
+
 
 # ── Step 3: Enrich orders with all table context ───────────────────────────────
 
@@ -284,6 +331,23 @@ def enrich_orders(orders_df: pd.DataFrame, tables: dict) -> pd.DataFrame:
     df["is_holiday"]    = df["is_holiday"].fillna(0).astype(int)
     df["holiday_name"]  = df["holiday_name"].fillna("")
 
+    # Join 6: inventory (left join — not every product has inventory data)
+    inv_lookup = build_inventory_lookup(tables["inventory"])
+    inv_lookup["date"] = pd.to_datetime(inv_lookup["date"]).dt.normalize()
+
+    df = df.merge(
+        inv_lookup,
+        on=["store_id", "product_id", "date"],
+        how="left",
+    )
+    _assert_row_count(df, original_count, "inventory join")
+
+    # Fill nulls — products with no inventory record get 0 for these
+    df["stock_available"]  = df["stock_available"].fillna(0)
+    df["stock_math_error"] = df["stock_math_error"].fillna(0)
+    df[config.INV_BEGIN_STOCK] = df[config.INV_BEGIN_STOCK].fillna(0)
+    df[config.INV_SOLD_QTY]    = df[config.INV_SOLD_QTY].fillna(0)
+    
     print(f"  Enriched {len(df):,} orders with context from all tables")
     return df
 
