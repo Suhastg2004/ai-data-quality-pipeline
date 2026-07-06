@@ -1,0 +1,307 @@
+{
+  "dataset": {
+    "total_rows": 1030,
+    "total_columns": 12,
+    "total_null_cells": 40,
+    "completeness_pct": 99.68,
+    "duplicate_rows": 29,
+    "duplicate_pct": 2.82,
+    "anomalous_rows": 130,
+    "fault_rate_pct": 12.62
+  },
+  "columns": {
+    "transaction_id": {
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 1000,
+      "top_values": [
+        {
+          "value": "e93c35b2-aa40-4f14-ad97-121f0a0c4e1c",
+          "count": 2,
+          "pct": 0.19
+        },
+        {
+          "value": "9acf32f8-5637-4e11-967d-e27d87a17283",
+          "count": 2,
+          "pct": 0.19
+        },
+        {
+          "value": "d85dd543-2231-4e71-8f3a-5a094a1a32d4",
+          "count": 2,
+          "pct": 0.19
+        },
+        {
+          "value": "eee7c757-3f16-4d66-9cba-445dfb93202f",
+          "count": 2,
+          "pct": 0.19
+        },
+        {
+          "value": "0c3684b3-1182-42a1-8555-27af35e6bad3",
+          "count": 2,
+          "pct": 0.19
+        }
+      ]
+    },
+    "store_id": {
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 20,
+      "top_values": [
+        {
+          "value": "STORE_008",
+          "count": 149,
+          "pct": 14.47
+        },
+        {
+          "value": "STORE_002",
+          "count": 125,
+          "pct": 12.14
+        },
+        {
+          "value": "STORE_003",
+          "count": 123,
+          "pct": 11.94
+        },
+        {
+          "value": "STORE_001",
+          "count": 122,
+          "pct": 11.84
+        },
+        {
+          "value": "STORE_013",
+          "count": 85,
+          "pct": 8.25
+        }
+      ]
+    },
+    "timestamp": {
+      "dtype": "datetime64[ns]",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 991,
+      "top_values": [
+        {
+          "value": "2024-03-30 08:59:00",
+          "count": 3,
+          "pct": 0.29
+        },
+        {
+          "value": "2024-02-01 15:09:00",
+          "count": 2,
+          "pct": 0.19
+        },
+        {
+          "value": "2024-03-28 12:18:00",
+          "count": 2,
+          "pct": 0.19
+        },
+        {
+          "value": "2024-01-05 11:00:00",
+          "count": 2,
+          "pct": 0.19
+        },
+        {
+          "value": "2024-03-12 10:30:00",
+          "count": 2,
+          "pct": 0.19
+        }
+      ]
+    },
+    "sku": {
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 434,
+      "top_values": [
+        {
+          "value": "SKU_0456",
+          "count": 8,
+          "pct": 0.78
+        },
+        {
+          "value": "SKU_0128",
+          "count": 7,
+          "pct": 0.68
+        },
+        {
+          "value": "SKU_0197",
+          "count": 7,
+          "pct": 0.68
+        },
+        {
+          "value": "SKU_0307",
+          "count": 7,
+          "pct": 0.68
+        },
+        {
+          "value": "SKU_0165",
+          "count": 7,
+          "pct": 0.68
+        }
+      ]
+    },
+    "category": {
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 5,
+      "top_values": [
+        {
+          "value": "Electronics",
+          "count": 242,
+          "pct": 23.5
+        },
+        {
+          "value": "Grocery",
+          "count": 203,
+          "pct": 19.71
+        },
+        {
+          "value": "HomeGoods",
+          "count": 199,
+          "pct": 19.32
+        },
+        {
+          "value": "Apparel",
+          "count": 195,
+          "pct": 18.93
+        },
+        {
+          "value": "Pharmacy",
+          "count": 191,
+          "pct": 18.54
+        }
+      ]
+    },
+    "quantity": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 14,
+      "min": -6.0,
+      "max": 9.0,
+      "mean": 2.94,
+      "median": 3.0,
+      "std": 1.71,
+      "q1": 2.0,
+      "q3": 4.0,
+      "iqr": 2.0,
+      "skewness": 0.2465
+    },
+    "unit_price": {
+      "dtype": "float64",
+      "null_count": 20,
+      "null_pct": 1.94,
+      "distinct_count": 978,
+      "min": 22.38,
+      "max": 9794.1,
+      "mean": 444.82,
+      "median": 245.38,
+      "std": 838.42,
+      "q1": 146.08,
+      "q3": 428.24,
+      "iqr": 282.16,
+      "skewness": 6.8506
+    },
+    "total_amount": {
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 1000,
+      "min": 30.59,
+      "max": 33609.5,
+      "mean": 1356.32,
+      "median": 653.38,
+      "std": 2985.26,
+      "q1": 331.94,
+      "q3": 1288.92,
+      "iqr": 956.99,
+      "skewness": 7.3132
+    },
+    "payment_method": {
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 5,
+      "top_values": [
+        {
+          "value": "cash",
+          "count": 285,
+          "pct": 27.67
+        },
+        {
+          "value": "UPI",
+          "count": 281,
+          "pct": 27.28
+        },
+        {
+          "value": "wallet",
+          "count": 232,
+          "pct": 22.52
+        },
+        {
+          "value": "card",
+          "count": 222,
+          "pct": 21.55
+        },
+        {
+          "value": "UNKNOWN_METHOD",
+          "count": 10,
+          "pct": 0.97
+        }
+      ]
+    },
+    "customer_id": {
+      "dtype": "object",
+      "null_count": 20,
+      "null_pct": 1.94,
+      "distinct_count": 485,
+      "top_values": [
+        {
+          "value": "CUST_00435",
+          "count": 7,
+          "pct": 0.68
+        },
+        {
+          "value": "CUST_00000",
+          "count": 6,
+          "pct": 0.58
+        },
+        {
+          "value": "CUST_00597",
+          "count": 6,
+          "pct": 0.58
+        },
+        {
+          "value": "CUST_00502",
+          "count": 6,
+          "pct": 0.58
+        },
+        {
+          "value": "CUST_00474",
+          "count": 6,
+          "pct": 0.58
+        }
+      ]
+    }
+  },
+  "validity": {
+    "negative_quantity": {
+      "count": 10,
+      "pct": 0.97,
+      "rule": "quantity must be >= 0"
+    },
+    "invalid_payment_method": {
+      "count": 10,
+      "pct": 0.97,
+      "rule": "payment_method must be one of ['cash', 'card', 'UPI', 'wallet']"
+    },
+    "total_amount_mismatch": {
+      "count": 10,
+      "pct": 0.97,
+      "rule": "total_amount should be within 20% of quantity * unit_price"
+    }
+  }
+}
