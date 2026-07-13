@@ -27,6 +27,7 @@ def train(X_train, y_train):
         scale_pos_weight=ratio, random_state=config.RANDOM_SEED,
         eval_metric="logloss", verbosity=0, n_jobs=-1,
     )
+    
     model.fit(X_train_imp, y_train)
     return imputer, model
 

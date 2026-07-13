@@ -1,1 +1,10 @@
-__pycache__
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore large datasets and output files
+*.csv
+*.xlsx
+dq_pipeline/dq_given_data/datasets/
+dq_pipeline/dq_given_data/output/
+dq_pipeline/dq_given_data/dq_given_data/

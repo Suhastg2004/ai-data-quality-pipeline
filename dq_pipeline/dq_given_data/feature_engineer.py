@@ -33,6 +33,7 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     df["is_negative_quantity"] = (df["quantity"] < 0).astype(int)
 
     discount_col = df["discount"].fillna(0)
+    
     df["unauthorized_discount"] = (
         (discount_col > 0) & (df["is_promotion"] == 0)
     ).astype(int)
@@ -112,18 +113,37 @@ def prepare_training_data(df: pd.DataFrame):
 
 if __name__ == "__main__":
     from data_loader import load_training_data
+    import os # Add this import for directory management
+    
     print("\n" + "=" * 55)
     print(f"  FEATURE ENGINEER — {config.ACTIVE_DATASET.upper()}")
     print("=" * 55)
+    
     df = load_training_data()
     X, y, featured_df = prepare_training_data(df)
+    
     print(f"\n  Feature columns ({len(get_feature_columns())}):")
     for col in get_feature_columns():
         print(f"    {col}")
+        
     nulls = X.isnull().sum()
     nulls = nulls[nulls > 0]
     print("\n  Null check:")
     print("    No nulls." if len(nulls) == 0 else nulls.to_string())
+    
+    # ---------------------------------------------------------
+    # NEW CODE: Save the feature-engineered dataset to CSV
+    # ---------------------------------------------------------
+    # output_dir = "dq_given_data/output"
+    # os.makedirs(output_dir, exist_ok=True) 
+    
+    # # You can name this based on the active dataset in config
+    # output_file = f"{output_dir}/engineered_{config.ACTIVE_DATASET}.csv"
+    
+    # featured_df.to_csv(output_file, index=False)
+    # print(f"\n  [+] Saved engineered dataset to: {output_file}")
+    # ---------------------------------------------------------
+
     print("\n" + "=" * 55)
     print("  FEATURE ENGINEER COMPLETE")
     print("=" * 55)
